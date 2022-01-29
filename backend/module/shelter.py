@@ -5,19 +5,23 @@ import requests
 from lxml import html
 from bs4 import BeautifulSoup
 from collections import OrderedDict
-
+from .areaCode import make_code, make_address
 serviceKey = 'WC9CCzNYH/PEHu8JOYDKJfZ821AjbbnHk4mnWoSp8h1IUB/OgG+RKTiLo90IwPglMXN7WwhlmCugFCyh4F9YeA=='
 serviceKeyDecoded = unquote(serviceKey, 'UTF-8')
-# # params = {'serviceKey':'P4%2BdEL2r5hyKVJj3z9Ce%2BaCLnWvxkWaFJNeTkLNDN6KTCf8xz5Nnub%2BW9%2BJVwFqjm%2FrrnrRcyPah3KHbgxQxQg%3D%3D', 'pageNo' : '1', 'numOfRows' : '3', 'type' : 'xml', 'year' : '2014', 'areaCd' : '1111051000', 'equptype' : '001' }
-#
+longitude = 128.357910
+latitude = 34.904001
+areaNumber = make_code(longitude, latitude)
+areaAdd = make_address(longitude, latitude)
+print(areaAdd)
+areaNumber[0] = areaNumber[0][0:-2] + "00"
 def check_place():
     url = 'http://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterList2'
-    params = {'serviceKey': serviceKey, 'type': 'xml', 'year': '2022',
-               'equptype': '001'}
+    params = {'serviceKey': serviceKey, 'type': 'xml', 'areaCd' : areaNumber[0]}
     response = requests.get(url, params = params)
     content = response.text
     # pp = pprint.PrettyPrinter(indent = 4)
     # print(pp.pprint(content))
+
     # subjects = {
     #     resSeqNo: 시설번호
     #     year: 년도
@@ -48,34 +52,38 @@ def check_place():
     soup = BeautifulSoup(content, "lxml-xml")
     rows = soup.find_all("row")
     shelter = ""
+    dis = 1000000000
+    best_shelter = ""
     for row in rows:
         file_data = OrderedDict()
-        file_data["restSeqNo"] = row.find('restSeqNo').get_text()
-        file_data["year"] = row.find('year').get_text()
+        # file_data["restSeqNo"] = row.find('restSeqNo').get_text()
+        # file_data["year"] = row.find('year').get_text()
         file_data["areaCd"] = row.find('areaCd').get_text()
         file_data["equptype"]= row.find('equptype').get_text()
         file_data["restname"]= row.find('restname').get_text()
         file_data["restaddr"]= row.find('restaddr').get_text()
-        file_data["creDttm"]= row.find('creDttm').get_text()
-        file_data["updtDttm"]= row.find('updtDttm').get_text()
-        file_data["useYn"]= row.find('useYn').get_text()
+        # file_data["creDttm"]= row.find('creDttm').get_text()
+        # file_data["updtDttm"]= row.find('updtDttm').get_text()
+        # file_data["useYn"]= row.find('useYn').get_text()
         file_data["areaNm"]= row.find('areaNm').get_text()
-        file_data["operBeginDe"]= row.find('operBeginDe').get_text()
-        file_data["operEndDe"]= row.find('operEndDe').get_text()
-        file_data["ar"] = row.find('ar').get_text()
-        file_data["colrHoldElefn"] = row.find('colrHoldElefn').get_text()
-        file_data["usePsblNmpr"] = row.find('usePsblNmpr').get_text()
-        file_data["colrHoldArcndtn"] = row.find('colrHoldArcndtn').get_text()
-        file_data["chckMatterNightOpnAt"]= row.find('chckMatterNightOpnAt').get_text()
-        file_data["chckMatterWkendHdayOpnAt"]= row.find('chckMatterWkendHdayOpnAt').get_text()
-        file_data["chckMatterStayngPsblAt"]= row.find('chckMatterStayngPsblAt').get_text()
-        file_data["rm"]= row.find('rm').get_text()
+        # file_data["operBeginDe"]= row.find('operBeginDe').get_text()
+        # file_data["operEndDe"]= row.find('operEndDe').get_text()
+        # file_data["ar"] = row.find('ar').get_text()
+        # file_data["colrHoldElefn"] = row.find('colrHoldElefn').get_text()
+        # file_data["usePsblNmpr"] = row.find('usePsblNmpr').get_text()
+        # file_data["colrHoldArcndtn"] = row.find('colrHoldArcndtn').get_text()
+        # file_data["chckMatterNightOpnAt"]= row.find('chckMatterNightOpnAt').get_text()
+        # file_data["chckMatterWkendHdayOpnAt"]= row.find('chckMatterWkendHdayOpnAt').get_text()
+        # file_data["chckMatterStayngPsblAt"]= row.find('chckMatterStayngPsblAt').get_text()
+        # file_data["rm"]= row.find('rm').get_text()
         file_data["dtlAdres"]= row.find('dtlAdres').get_text()
-        file_data["mngdpt_cd"]= row.find('mngdpt_cd').get_text()
-        file_data["mngdptCd"]= row.find('mngdptCd').get_text()
-        file_data["la"]= row.find('la').get_text()
-        file_data["lo"]= row.find('lo').get_text()
+        # file_data["mngdpt_cd"]= row.find('mngdpt_cd').get_text()
+        # file_data["mngdptCd"]= row.find('mngdptCd').get_text()
+        # file_data["xcord"]= row.find("xcord").get_text()
+        # file_data["ycord"] = row.find("ycord").get_text()
+        file_data["la"] = row.find('la').get_text()
+        file_data["lo"] = row.find('lo').get_text()
         shelter += json.dumps(file_data, ensure_ascii=False, indent="\t")
-    print(shelter)
-    return content
+        shelter +="\n"
+    return shelter
 
