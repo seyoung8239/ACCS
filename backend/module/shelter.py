@@ -8,13 +8,13 @@ from collections import OrderedDict
 from .areaCode import make_code, make_address
 serviceKey = 'WC9CCzNYH/PEHu8JOYDKJfZ821AjbbnHk4mnWoSp8h1IUB/OgG+RKTiLo90IwPglMXN7WwhlmCugFCyh4F9YeA=='
 serviceKeyDecoded = unquote(serviceKey, 'UTF-8')
-longitude = 128.357910
-latitude = 34.904001
-areaNumber = make_code(longitude, latitude)
-areaAdd = make_address(longitude, latitude)
-print(areaAdd)
-areaNumber[0] = areaNumber[0][0:-2] + "00"
 def check_place():
+    longitude = 128.357910
+    latitude = 34.904001
+    areaNumber = make_code(longitude, latitude)
+    areaAdd = make_address(longitude, latitude)
+    print(areaAdd)
+    areaNumber[0] = areaNumber[0][0:-2] + "00"
     url = 'http://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterList2'
     params = {'serviceKey': serviceKey, 'type': 'xml', 'areaCd' : areaNumber[0]}
     response = requests.get(url, params = params)
@@ -64,7 +64,7 @@ def check_place():
         file_data["restaddr"]= row.find('restaddr').get_text()
         # file_data["creDttm"]= row.find('creDttm').get_text()
         # file_data["updtDttm"]= row.find('updtDttm').get_text()
-        # file_data["useYn"]= row.find('useYn').get_text()
+        file_data["useYn"]= row.find('useYn').get_text()
         file_data["areaNm"]= row.find('areaNm').get_text()
         # file_data["operBeginDe"]= row.find('operBeginDe').get_text()
         # file_data["operEndDe"]= row.find('operEndDe').get_text()
@@ -83,7 +83,20 @@ def check_place():
         # file_data["ycord"] = row.find("ycord").get_text()
         file_data["la"] = row.find('la').get_text()
         file_data["lo"] = row.find('lo').get_text()
-        shelter += json.dumps(file_data, ensure_ascii=False, indent="\t")
-        shelter +="\n"
+        x = file_data["la"]
+        y = file_data["lo"]
+        if(x=="" or y==""):
+            pass
+        else:
+            x = float(x)
+            y = float(y)
+            tmp = (y-longitude)**2 + (x-latitude) ** 2
+            if(dis > tmp):
+                dis = tmp
+                best_shelter = json.dumps(file_data, ensure_ascii=False, indent="\t")
+        if(file_data["useYn"] == "Y"):
+            shelter += json.dumps(file_data, ensure_ascii=False, indent="\t")
+            shelter +="\n"
+    print(best_shelter)
     return shelter
 
