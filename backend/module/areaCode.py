@@ -17,7 +17,7 @@ def reverse_geocode(longitude, latitude):
     try:
         json_req = json_request(url=url)
         json_data = json.loads(json_req)
-        json_doc = json_data.get('documents')[0]
+        json_doc = json_data.get('documents')[1]
         json_name = json_doc.get('address_name')
         json_code = json_doc.get('code')
     except:
