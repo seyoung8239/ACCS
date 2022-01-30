@@ -9,14 +9,17 @@ from .areaCode import make_code, make_address
 serviceKey = 'WC9CCzNYH/PEHu8JOYDKJfZ821AjbbnHk4mnWoSp8h1IUB/OgG+RKTiLo90IwPglMXN7WwhlmCugFCyh4F9YeA=='
 serviceKeyDecoded = unquote(serviceKey, 'UTF-8')
 def check_place():
-    longitude = 128.357910
-    latitude = 34.904001
+    longitude = 128.61616251779108
+    latitude = 35.88171921960823
+    # 35.88171921960823, 128.61616251779108
     areaNumber = make_code(longitude, latitude)
     areaAdd = make_address(longitude, latitude)
     print(areaAdd)
+    print(areaNumber)
     areaNumber[0] = areaNumber[0][0:-2] + "00"
     url = 'http://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterList2'
-    params = {'serviceKey': serviceKey, 'type': 'xml', 'areaCd' : areaNumber[0]}
+    url_Area = "http://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterCrntStList2"
+    params = {'serviceKey': serviceKey, 'type': 'xml'}
     response = requests.get(url, params = params)
     content = response.text
     # pp = pprint.PrettyPrinter(indent = 4)
@@ -85,18 +88,17 @@ def check_place():
         file_data["lo"] = row.find('lo').get_text()
         x = file_data["la"]
         y = file_data["lo"]
-        if(x=="" or y==""):
-            pass
-        else:
-            x = float(x)
-            y = float(y)
-            tmp = (y-longitude)**2 + (x-latitude) ** 2
-            if(dis > tmp):
-                dis = tmp
-                best_shelter = json.dumps(file_data, ensure_ascii=False, indent="\t")
-        if(file_data["useYn"] == "Y"):
-            shelter += json.dumps(file_data, ensure_ascii=False, indent="\t")
-            shelter +="\n"
-    print(best_shelter)
+        # if(x=="" or y==""):
+        #     pass
+        # else:
+        #     x = float(x)
+        #     y = float(y)
+        #     tmp = (y-longitude)**2 + (x-latitude) ** 2
+        #     if(dis > tmp):
+        #         dis = tmp
+        #         best_shelter = json.dumps(file_data, ensure_ascii=False, indent="\t")
+        # if(file_data["useYn"] == "Y"):
+        shelter += json.dumps(file_data, ensure_ascii=False, indent="\t")
+        shelter +="\n"
     return shelter
 
