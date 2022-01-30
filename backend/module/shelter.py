@@ -9,17 +9,25 @@ from .areaCode import make_code, make_address
 serviceKey = 'WC9CCzNYH/PEHu8JOYDKJfZ821AjbbnHk4mnWoSp8h1IUB/OgG+RKTiLo90IwPglMXN7WwhlmCugFCyh4F9YeA=='
 serviceKeyDecoded = unquote(serviceKey, 'UTF-8')
 def check_place():
-    longitude = 128.61616251779108
-    latitude = 35.88171921960823
-    # 35.88171921960823, 128.61616251779108
+    size = 3 # 가장가까운 쉼터 몇개 알려줄건지
+    stack = [] * size
+    index = 0
+    longitude = 128.53843740548325
+    latitude = 35.818969493056365
+    # 37.58368071740475, 126.96733695359828 / 서울 종로구 35.818969493056365, 128.53843740548325 / 대구 달서구 상인동
+    # 35.804066, 128.500381
     areaNumber = make_code(longitude, latitude)
     areaAdd = make_address(longitude, latitude)
     print(areaAdd)
     print(areaNumber)
-    areaNumber[0] = areaNumber[0][0:-2] + "00"
+    # for i in range(1,100): # 리 단위 구역은 반복문 돌려서 다 찾아야 될듯
+    #     if(i < 10):
+    #       areaNumber[0] = areaNumber[0,-2] + '0' + str(i)
+    #     else:
+    #      areaNumber[0] = areaNumber[0,-2] + str(i)
     url = 'http://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterList2'
     url_Area = "http://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterCrntStList2"
-    params = {'serviceKey': serviceKey, 'type': 'xml'}
+    params = {'serviceKey': serviceKey, 'type': 'xml', "areaCd" : areaNumber[0]}
     response = requests.get(url, params = params)
     content = response.text
     # pp = pprint.PrettyPrinter(indent = 4)
@@ -55,50 +63,62 @@ def check_place():
     soup = BeautifulSoup(content, "lxml-xml")
     rows = soup.find_all("row")
     shelter = ""
-    dis = 1000000000
     best_shelter = ""
     for row in rows:
         file_data = OrderedDict()
-        # file_data["restSeqNo"] = row.find('restSeqNo').get_text()
-        # file_data["year"] = row.find('year').get_text()
+        file_data["restSeqNo"] = row.find('restSeqNo').get_text()
+        file_data["year"] = row.find('year').get_text()
         file_data["areaCd"] = row.find('areaCd').get_text()
         file_data["equptype"]= row.find('equptype').get_text()
         file_data["restname"]= row.find('restname').get_text()
         file_data["restaddr"]= row.find('restaddr').get_text()
-        # file_data["creDttm"]= row.find('creDttm').get_text()
-        # file_data["updtDttm"]= row.find('updtDttm').get_text()
+        file_data["creDttm"]= row.find('creDttm').get_text()
+        file_data["updtDttm"]= row.find('updtDttm').get_text()
         file_data["useYn"]= row.find('useYn').get_text()
         file_data["areaNm"]= row.find('areaNm').get_text()
-        # file_data["operBeginDe"]= row.find('operBeginDe').get_text()
-        # file_data["operEndDe"]= row.find('operEndDe').get_text()
-        # file_data["ar"] = row.find('ar').get_text()
-        # file_data["colrHoldElefn"] = row.find('colrHoldElefn').get_text()
-        # file_data["usePsblNmpr"] = row.find('usePsblNmpr').get_text()
-        # file_data["colrHoldArcndtn"] = row.find('colrHoldArcndtn').get_text()
-        # file_data["chckMatterNightOpnAt"]= row.find('chckMatterNightOpnAt').get_text()
-        # file_data["chckMatterWkendHdayOpnAt"]= row.find('chckMatterWkendHdayOpnAt').get_text()
-        # file_data["chckMatterStayngPsblAt"]= row.find('chckMatterStayngPsblAt').get_text()
-        # file_data["rm"]= row.find('rm').get_text()
+        file_data["operBeginDe"]= row.find('operBeginDe').get_text()
+        file_data["operEndDe"]= row.find('operEndDe').get_text()
+        file_data["ar"] = row.find('ar').get_text()
+        file_data["colrHoldElefn"] = row.find('colrHoldElefn').get_text()
+        file_data["usePsblNmpr"] = row.find('usePsblNmpr').get_text()
+        file_data["colrHoldArcndtn"] = row.find('colrHoldArcndtn').get_text()
+        file_data["chckMatterNightOpnAt"]= row.find('chckMatterNightOpnAt').get_text()
+        file_data["chckMatterWkendHdayOpnAt"]= row.find('chckMatterWkendHdayOpnAt').get_text()
+        file_data["chckMatterStayngPsblAt"]= row.find('chckMatterStayngPsblAt').get_text()
+        file_data["rm"]= row.find('rm').get_text()
         file_data["dtlAdres"]= row.find('dtlAdres').get_text()
-        # file_data["mngdpt_cd"]= row.find('mngdpt_cd').get_text()
-        # file_data["mngdptCd"]= row.find('mngdptCd').get_text()
-        # file_data["xcord"]= row.find("xcord").get_text()
-        # file_data["ycord"] = row.find("ycord").get_text()
+        file_data["mngdpt_cd"]= row.find('mngdpt_cd').get_text()
+        file_data["mngdptCd"]= row.find('mngdptCd').get_text()
+        file_data["xcord"]= row.find("xcord").get_text()
+        file_data["ycord"] = row.find("ycord").get_text()
         file_data["la"] = row.find('la').get_text()
         file_data["lo"] = row.find('lo').get_text()
         x = file_data["la"]
         y = file_data["lo"]
-        # if(x=="" or y==""):
-        #     pass
-        # else:
-        #     x = float(x)
-        #     y = float(y)
-        #     tmp = (y-longitude)**2 + (x-latitude) ** 2
-        #     if(dis > tmp):
-        #         dis = tmp
-        #         best_shelter = json.dumps(file_data, ensure_ascii=False, indent="\t")
-        # if(file_data["useYn"] == "Y"):
-        shelter += json.dumps(file_data, ensure_ascii=False, indent="\t")
-        shelter +="\n"
-    return shelter
+        if(x=="" or y==""):
+            pass
+        else:
+            flag = 0
+            x = float(x)
+            y = float(y)
+            tmp = (y-longitude)**2 + (x-latitude) ** 2
+            if(index < size):
+                stack.append([tmp,file_data["restname"], json.dumps(file_data, ensure_ascii=False, indent="\t")])
+                index += 1
+            else:
+                for i in range(0,size):
+                    if(file_data["restname"] == stack[i][1]):
+                        flag = 1
+                stack.sort()
+                if(tmp < stack[2][0] and flag == 0):
+                    stack[2] = [tmp, file_data["restname"],json.dumps(file_data, ensure_ascii=False, indent="\t")]
+        if(file_data["useYn"] == "Y"):
+            shelter += json.dumps(file_data, ensure_ascii=False, indent="\t")
+            shelter +="\n"
+    stack.sort()
+    for i in range(0,size):
+        best_shelter += stack[i][2]
+        shelter += "\n"
+    print(best_shelter)
+    return best_shelter
 
