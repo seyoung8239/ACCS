@@ -6,10 +6,10 @@ from lxml import html
 from bs4 import BeautifulSoup
 from collections import OrderedDict
 from .areaCode import make_code, make_address
-serviceKey = 'WC9CCzNYH/PEHu8JOYDKJfZ821AjbbnHk4mnWoSp8h1IUB/OgG+RKTiLo90IwPglMXN7WwhlmCugFCyh4F9YeA=='
+serviceKey = 'TzsP1PZKniYL6CSvJqbf4KpLPRHSq0uNYR5OdG/J4gy8pt7WTlLm2Xx7Lfv90CZzWz8sDIHLJOvCF6K49GmZ/Q=='
 serviceKeyDecoded = unquote(serviceKey, 'UTF-8')
 def check_place():
-    size = 3 # 가장가까운 쉼터 몇개 알려줄건지
+    size = 3 # 가장 가까운 쉼터 몇개 알려줄건지
     stack = [] * size
     index = 0
     longitude = 128.53843740548325
@@ -119,6 +119,4 @@ def check_place():
     for i in range(0,size):
         best_shelter += stack[i][2]
         shelter += "\n"
-    print(best_shelter)
     return best_shelter
-
