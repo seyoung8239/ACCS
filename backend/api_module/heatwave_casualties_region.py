@@ -70,8 +70,8 @@ def get_heatwave_data():
             for rd in region_data:
                 REGION_DATA[str(year)].append(xml_to_dict(rd))
 
-        total_json = json.dumps(TOTAL_DATA)  # total dict to json
-        region_json = json.dumps(REGION_DATA)  # region dict to json
+        total_json = json.dumps(TOTAL_DATA, ensure_ascii=False, indent='\t')  # total dict to json
+        region_json = json.dumps(REGION_DATA, ensure_ascii=False, indent='\t')  # region dict to json
 
         write_json_file(total_json, region_json)  # 받아온 total, region 온열 질환자 데이터 json 파일로 저장
 
