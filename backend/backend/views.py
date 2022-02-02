@@ -1,4 +1,3 @@
-from api_module.shelter import check_place
 from django.http import HttpResponse
 from api_module import shelter, heatwave_casualties_region, inquiry_response_heatwave
 

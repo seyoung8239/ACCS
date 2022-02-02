@@ -13,3 +13,8 @@ urlpatterns = [
     path('ShareMe', views.ShareMe.as_view()),
     path('Alarm', views.Alarm.as_view()),
 ]
+
+"""
+    heatwave/response/<str:field> field 의 형태
+    'public', 'vulnerable', 'industry', 'livestock', 'agriculture', 'aquaculture', 'etc'
+"""
