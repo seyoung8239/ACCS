@@ -33,8 +33,8 @@ def check_place():
     params = {'serviceKey': serviceKey, 'type': 'xml', "areaCd": areaNumber[0]}
     response = requests.get(url, params=params)
     content = response.text
-    # pp = pprint.PrettyPrinter(indent = 4)
-    # print(pp.pprint(content))
+    pp = pprint.PrettyPrinter(indent = 4)
+    print(pp.pprint(content))
 
     # subjects = {
     #     resSeqNo: 시설번호
