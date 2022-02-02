@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from api_module import shelter, heatwave_casualties_region, inquiry_response_heatwave
 
 
-def index(request):
+def find_shelter(request):
     res = shelter.check_place()
     return HttpResponse(res)
 
