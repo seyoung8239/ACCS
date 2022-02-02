@@ -20,7 +20,7 @@ const ResponsiveAppBar = () => {
   const classes = useStyles();
 
   return (
-    <AppBar position="static">
+    <AppBar position="absolute" >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -32,12 +32,12 @@ const ResponsiveAppBar = () => {
             ACCS
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {pages.map((page, i) => (
               <Button
                 component={NavLink}
                 to={page.to}
                 className={classes.pageEl}
-                key={page}
+                key={i}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page.primary}
