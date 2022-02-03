@@ -10,8 +10,8 @@ urlpatterns = [
     path('heatwave/total', heatwave_total),
     path('heatwave/region', heatwave_region),
     path('heatwave/response/<str:field>', inquiry_response_heatwave_by_field),
-    path('ShareMe', views.ShareMe.as_view()),
-    path('Alarm', views.Alarm.as_view()),
+    path('ShareMe/', views.ShareMe.as_view()),
+    path('Alarm/', views.Alarm.as_view()),
 ]
 
 """

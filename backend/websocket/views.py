@@ -3,6 +3,8 @@ from django.views.generic import TemplateView
 from . import models
 import json
 from django.shortcuts import HttpResponse
+
+
 # Create your views here.
 
 
@@ -23,10 +25,10 @@ class ShareMe(TemplateView):
         context['username'] = self.request.user.username
         return context
 
-    def post(self,request,**kwargs):
+    def post(self, request, **kwargs):
         ins = models.Alarm()
         data_unicode = request.body.decode('utf-8')
         data = json.loads(data_unicode)
         ins.message = data['message']
         ins.save()
-        return HttpResponse('')
+        return HttpResponse(data)

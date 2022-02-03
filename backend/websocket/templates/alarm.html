@@ -5,7 +5,7 @@
     <title>Alarm</title>
 </head>
 <body>
-    <textarea id="chat-log" cols="100" rows="20"></textarea><br/>
+    <textarea id="chat-log" cols="1000" rows="200"></textarea><br/>
 </body>
 <script>
     username='{{ username }}';
@@ -17,7 +17,11 @@
         console.log(e);
         var data = JSON.parse(e.data);
         var message = data['message'];
+        var shelters = data['shelters'];
+        var inquiry = data['inquiry'];
         document.querySelector('#chat-log').value += (message + '\n');
+        document.querySelector('#chat-log').value += (shelters + '\n');
+        document.querySelector('#chat-log').value += (inquiry + '\n');
     };
 
     chatSocket.onopen=function (e) {
