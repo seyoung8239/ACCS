@@ -14,9 +14,12 @@
         xhr.open("POST", window.location.href, true);
         xhr.setRequestHeader('X-CSRFToken', '{{ csrf_token }}');
         xhr.setRequestHeader('Content-Type', 'application/json');
-        xhr.send(JSON.stringify({
-            'message': username+"님이 "+event+"에 응답했습니다."
-        }));
+        var sending = JSON.stringify({
+            'message': username+"님이 "+event+"에 응답했습니다.",
+            'la' : 35.818969493056365,
+            'lo' : 128.53843740548325,
+        })
+        xhr.send(sending);
     };
 </script>
 </html>

@@ -16,9 +16,10 @@ def announce_likes(sender, instance, created, **kwargs):
             "shares", {
                 "type": "share_message",
                 "message": instance.message,
+                "la": instance.la,
+                "lo": instance.lo,  # 여기서 받고
             }
         )
-    print(instance.message)
 
 
 class UserTestConsumer(WebsocketConsumer):
@@ -35,23 +36,28 @@ class UserTestConsumer(WebsocketConsumer):
     def receive(self, text_data):  # 받을 정보 여기에다가 parsing
         text_data_json = json.loads(text_data)
         message = text_data_json['message']
-        inquiry = text_data_json['inquiry']
+        content = text_data_json['content']
         print("received message : " + message)
         async_to_sync(self.channel_layer.group_send)(
             self.groupname,
             {
                 'type': 'share_message',
-                'message': message
+                'message': message,
+                'content': content
             }
         )
 
     def share_message(self, event):  # 여기다 정보 모아서 보내면됨 쉼터, 행동요령 보낼예정?
         message = event['message']
-        shelters = shelter.check_place() # 받아온 좌표인자 parameter로 넣을예정
+        latitude = event['la']
+        longitude = event['lo']
+        shelters = shelter.find_short(longitude, latitude)  # 받아온 좌표인자 parameter로 넣을예정
         inquiry = inquiry_response_heatwave.get_action_by_field('public')  # 종사하는 field 받아와서 넣을예정
         text_data = json.dumps({
             'message': message,
             'shelters': shelters,
-            'inquiry': inquiry,
+            'inquiry': inquiry[0],
+            'la' : str(latitude),
+            'lo' : str(longitude),
         })
         self.send(text_data)

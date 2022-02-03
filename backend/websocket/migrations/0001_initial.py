@@ -16,6 +16,8 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('message', models.CharField(max_length=100)),
+                ('la', models.FloatField(default=0)),
+                ('lo', models.FloatField(default=0)),
             ],
         ),
     ]
