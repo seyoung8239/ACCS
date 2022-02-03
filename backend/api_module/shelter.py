@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from collections import OrderedDict
 from .areaCode import make_code, make_address
 
-serviceKey = 'TzsP1PZKniYL6CSvJqbf4KpLPRHSq0uNYR5OdG/J4gy8pt7WTlLm2Xx7Lfv90CZzWz8sDIHLJOvCF6K49GmZ/Q=='
+serviceKey = 'eevsrrwRji5TqX4eCcvWHfSfq1ObEwH0L0/nYNIoWoZIizEPi4Qf7N2vQ8D1CC6LLib6l5SkZJP/HnSeeqbzqw=='
 # serviceKey = 'WC9CCzNYH/PEHu8JOYDKJfZ821AjbbnHk4mnWoSp8h1IUB/OgG+RKTiLo90IwPglMXN7WwhlmCugFCyh4F9YeA=='
 serviceKeyDecoded = unquote(serviceKey, 'UTF-8')
 
@@ -22,8 +22,8 @@ def check_place():
     # 35.804066, 128.500381
     areaNumber = make_code(longitude, latitude)
     areaAdd = make_address(longitude, latitude)
-    print(areaAdd)
-    print(areaNumber)
+    # print(areaAdd)
+    # print(areaNumber)
     # for i in range(1,100): # 리 단위 구역은 반복문 돌려서 다 찾아야 될듯
     #     if(i < 10):
     #       areaNumber[0] = areaNumber[0,-2] + '0' + str(i)
@@ -33,9 +33,9 @@ def check_place():
     url_Area = "http://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterCrntStList2"
     params = {'serviceKey': serviceKey, 'type': 'xml', "areaCd": areaNumber[0]}
     response = requests.get(url, params=params)
-    content = response.text
-    pp = pprint.PrettyPrinter(indent = 4)
-    print(pp.pprint(content))
+    content = response.content
+    # pp = pprint.PrettyPrinter(indent = 4)
+    # print(pp.pprint(content))
 
     # subjects = {
     #     resSeqNo: 시설번호
@@ -70,31 +70,31 @@ def check_place():
     best_shelter = ""
     for row in rows:
         file_data = OrderedDict()
-        file_data["restSeqNo"] = row.find('restSeqNo').get_text()
-        file_data["year"] = row.find('year').get_text()
+        # file_data["restSeqNo"] = row.find('restSeqNo').get_text()
+        # file_data["year"] = row.find('year').get_text()
         file_data["areaCd"] = row.find('areaCd').get_text()
-        file_data["equptype"] = row.find('equptype').get_text()
+        # file_data["equptype"] = row.find('equptype').get_text()
         file_data["restname"] = row.find('restname').get_text()
         file_data["restaddr"] = row.find('restaddr').get_text()
-        file_data["creDttm"] = row.find('creDttm').get_text()
-        file_data["updtDttm"] = row.find('updtDttm').get_text()
+        # file_data["creDttm"] = row.find('creDttm').get_text()
+        # file_data["updtDttm"] = row.find('updtDttm').get_text()
         file_data["useYn"] = row.find('useYn').get_text()
-        file_data["areaNm"] = row.find('areaNm').get_text()
-        file_data["operBeginDe"] = row.find('operBeginDe').get_text()
-        file_data["operEndDe"] = row.find('operEndDe').get_text()
-        file_data["ar"] = row.find('ar').get_text()
-        file_data["colrHoldElefn"] = row.find('colrHoldElefn').get_text()
-        file_data["usePsblNmpr"] = row.find('usePsblNmpr').get_text()
-        file_data["colrHoldArcndtn"] = row.find('colrHoldArcndtn').get_text()
-        file_data["chckMatterNightOpnAt"] = row.find('chckMatterNightOpnAt').get_text()
-        file_data["chckMatterWkendHdayOpnAt"] = row.find('chckMatterWkendHdayOpnAt').get_text()
-        file_data["chckMatterStayngPsblAt"] = row.find('chckMatterStayngPsblAt').get_text()
-        file_data["rm"] = row.find('rm').get_text()
-        file_data["dtlAdres"] = row.find('dtlAdres').get_text()
-        file_data["mngdpt_cd"] = row.find('mngdpt_cd').get_text()
-        file_data["mngdptCd"] = row.find('mngdptCd').get_text()
-        file_data["xcord"] = row.find("xcord").get_text()
-        file_data["ycord"] = row.find("ycord").get_text()
+        # file_data["areaNm"] = row.find('areaNm').get_text()
+        # file_data["operBeginDe"] = row.find('operBeginDe').get_text()
+        # file_data["operEndDe"] = row.find('operEndDe').get_text()
+        # file_data["ar"] = row.find('ar').get_text()
+        # file_data["colrHoldElefn"] = row.find('colrHoldElefn').get_text()
+        # file_data["usePsblNmpr"] = row.find('usePsblNmpr').get_text()
+        # file_data["colrHoldArcndtn"] = row.find('colrHoldArcndtn').get_text()
+        # file_data["chckMatterNightOpnAt"] = row.find('chckMatterNightOpnAt').get_text()
+        # file_data["chckMatterWkendHdayOpnAt"] = row.find('chckMatterWkendHdayOpnAt').get_text()
+        # file_data["chckMatterStayngPsblAt"] = row.find('chckMatterStayngPsblAt').get_text()
+        # file_data["rm"] = row.find('rm').get_text()
+        # file_data["dtlAdres"] = row.find('dtlAdres').get_text()
+        # file_data["mngdpt_cd"] = row.find('mngdpt_cd').get_text()
+        # file_data["mngdptCd"] = row.find('mngdptCd').get_text()
+        # file_data["xcord"] = row.find("xcord").get_text()
+        # file_data["ycord"] = row.find("ycord").get_text()
         file_data["la"] = row.find('la').get_text()
         file_data["lo"] = row.find('lo').get_text()
         x = file_data["la"]
@@ -123,5 +123,5 @@ def check_place():
     for i in range(0, size):
         best_shelter += stack[i][2]
         shelter += "\n"
-    print(best_shelter)
+    # print(best_shelter)
     return best_shelter
