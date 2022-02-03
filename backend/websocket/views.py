@@ -30,5 +30,7 @@ class ShareMe(TemplateView):
         data_unicode = request.body.decode('utf-8')
         data = json.loads(data_unicode)
         ins.message = data['message']
+        ins.la = data['la']
+        ins.lo = data['lo']
         ins.save()
-        return HttpResponse(data)
+        return HttpResponse('')

@@ -19,9 +19,13 @@
         var message = data['message'];
         var shelters = data['shelters'];
         var inquiry = data['inquiry'];
+        var la = data['la']
+        var lo = data['lo']
         document.querySelector('#chat-log').value += (message + '\n');
         document.querySelector('#chat-log').value += (shelters + '\n');
         document.querySelector('#chat-log').value += (inquiry + '\n');
+        document.querySelector('#chat-log').value += (la + '\n');
+        document.querySelector('#chat-log').value += (lo + '\n');
     };
 
     chatSocket.onopen=function (e) {
