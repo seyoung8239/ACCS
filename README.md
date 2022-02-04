@@ -31,10 +31,10 @@ npm start
 ## 사용기술
   - Django
   - WebSocket
-  - BeautifulSoup
   - channels
   - docker
   - redis
+  - Kakao Local Api
   
 ## 배포된 서비스 이용(아래 url로 접근 가능)
 > http://34.64.174.66:8000/
@@ -54,7 +54,7 @@ npm start
  > 온열 대처요령 category별 api
  
  /shelter
- > 전국 무더위쉼터 정보 및 위치
+ > 전국 무더위쉼터 정보 및 위치 api
  
  /ShareMe
  > 사용자 위치별 가장 가까운 무더위쉼터 정보, category별 대처요령 유저에게 socket을 통해 전송
