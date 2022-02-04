@@ -41,11 +41,11 @@ const TempTable = () => {
       <Table stickyHeader>
         <TableHead >
           <TableRow className={classes.tableHeader}>
-            <TableCell><b>지역</b></TableCell>
-            <TableCell><b>최대 기온</b></TableCell>
-            <TableCell><b>평균 기온</b></TableCell>
-            <TableCell><b>최소 기온</b></TableCell>
-            <TableCell><b>위험도</b></TableCell>
+            <TableCell sx={{backgroundColor: "#0e4472", color: 'white'}}><b>지역</b></TableCell>
+            <TableCell sx={{backgroundColor: "#0e4472", color: 'white'}}><b>최대 기온</b></TableCell>
+            <TableCell sx={{backgroundColor: "#0e4472", color: 'white'}}><b>평균 기온</b></TableCell>
+            <TableCell sx={{backgroundColor: "#0e4472", color: 'white'}}><b>최소 기온</b></TableCell>
+            <TableCell sx={{backgroundColor: "#0e4472", color: 'white'}}><b>위험도</b></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

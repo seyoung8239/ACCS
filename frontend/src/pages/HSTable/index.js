@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import {heatwave_total, heatwave_region} from '../../RouteAPI';
+import { heatwave_total, heatwave_region } from '../../routeAPI';
 
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -49,7 +49,7 @@ const HSTable = () => {
       dataRegion.forEach(year => {
         const lables = year.map(city => city.region);
         const data = year.map(city => parseInt(city.total));
-        setChartData(prev => prev.concat({ labels: lables, datasets: [{ label: '지역별 온열 질환자 현황', data: data, backgroundColor: "rgba(255, 99, 132, 0.5)" }] }));
+        setChartData(prev => prev.concat({ labels: lables, datasets: [{ label: '지역별 온열 질환자 현황', data: data, backgroundColor: "rgba(255, 99, 132, 0.9)" }] }));
       })
     }
   }, [dataRegion]);
@@ -78,30 +78,30 @@ const HSTable = () => {
   return (
     <>
       <Box className={classes.box} />
-      <Container>
-        <TableContainer component={Paper}>
+      <Container style={{ width: '90%', }}>
+        <TableContainer component={Paper} style={{ backgroundColor: 'white' }}>
           <Table>
             <TableHead>
               <TableRow>
-                <TableCell>Year</TableCell>
-                <TableCell>Total</TableCell>
-                <TableCell>Outdoor</TableCell>
-                <TableCell>Indoor</TableCell>
-                <TableCell size="small"></TableCell>
+                <TableCell align="center" sx={{backgroundColor: "#0e4472", color: 'white'}}><b>기준년도</b></TableCell>
+                <TableCell align="center" sx={{backgroundColor: "#0e4472", color: 'white'}}><b>전체 환자</b></TableCell>
+                <TableCell align="center" sx={{backgroundColor: "#0e4472", color: 'white'}}><b>실외 환자</b></TableCell>
+                <TableCell align="center" sx={{backgroundColor: "#0e4472", color: 'white'}}><b>실내 환자</b></TableCell>
+                <TableCell align="center" className={classes.button} sx={{backgroundColor: "#0e4472", color: 'white'}}>지역별</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
               {dataTotal.map((row, i) => (
                 <>
                   <TableRow key={i} onClick={() => handleRowClick(i)}>
-                    <TableCell>{row.year}</TableCell>
-                    <TableCell>{row.total}</TableCell>
-                    <TableCell>{row.otdoor_subtot}</TableCell>
-                    <TableCell>{row.indoor_subtot}</TableCell>
-                    <TableCell size="small">{isRowOpen[i] ? <ArrowDropUpIcon /> : <ArrowDropDownIcon />}</TableCell>
+                    <TableCell align="center">{row.year}</TableCell>
+                    <TableCell align="center">{row.total}</TableCell>
+                    <TableCell align="center">{row.otdoor_subtot}</TableCell>
+                    <TableCell align="center">{row.indoor_subtot}</TableCell>
+                    <TableCell align="center">{isRowOpen[i] ? <ArrowDropUpIcon /> : <ArrowDropDownIcon />}</TableCell>
                   </TableRow>
-                  {isRowOpen[i] && chartData && <TableCell className={classes.chart} colSpan={5} align="center">
-                    <Bar data={chartData[i]} key={i} options={options} height={200} width={400}/>
+                  {isRowOpen[i] && chartData && <TableCell align="center" className={classes.chart} colSpan={5} >
+                    <Bar data={chartData[i]} key={i} options={options} height={200} width={400} />
                   </TableCell>}
                 </>
               ))}
