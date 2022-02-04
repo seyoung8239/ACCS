@@ -35,12 +35,14 @@ npm start
   - channels
   - docker
   - redis
+  
 - 배포된 서비스 이용(아래 url로 접근 가능)
 > http://34.64.174.66:8000/
  ```
  cd backend
  python manage.py runserver
  ```
+ 
  ### 기능 설명
  /heatwave/total
  > 온열질환자에 대한 전국 통계 api
