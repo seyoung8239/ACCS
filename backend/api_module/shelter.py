@@ -1,8 +1,7 @@
 import json
-import pprint
+import os
 from urllib.parse import urlencode, unquote, quote_plus
 import requests
-from lxml import html
 from bs4 import BeautifulSoup
 from collections import OrderedDict
 from .areaCode import make_code, make_address
@@ -13,6 +12,7 @@ serviceKeyDecoded = unquote(serviceKey, 'UTF-8')
 url = 'http://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterList2'
 # url_Area = "http://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterCrntStList2"
 FILE_PATH = "./api_json/shelter.json"
+
 
 def find_short(longitude, latitude):
     size = 3  # 가장가까운 쉼터 몇개 알려줄건지
@@ -120,25 +120,33 @@ def find_short(longitude, latitude):
     return best_shelter
 
 
+def get_shelter_data():
+    if not os.path.isfile(FILE_PATH):  # json 파일이 존재 X
+        check_place()
+
+    with open(FILE_PATH, "r") as json_file:
+        data = json.load(json_file)
+
+    return data
+
+
 def check_place():
-    pageNo = 1
     shelter = []
-    params = {'serviceKey': serviceKey, 'type': 'xml', 'pageNo' : '1', 'numOfRows' : '1000'}
-    response = requests.get(url, params=params)
-    content = response.content
-    soup = BeautifulSoup(content, "lxml-xml")
-    rows = soup.find_all("row")
-    for row in rows:
-        file_data = OrderedDict()
-        file_data["restname"] = row.find('restname').get_text()
-        file_data["restaddr"] = row.find('restaddr').get_text()
-        file_data["useYn"] = row.find('useYn').get_text()
-        file_data["la"] = row.find('la').get_text()
-        file_data["lo"] = row.find('lo').get_text()
-        if file_data["useYn"] == "Y":
-            shelter.append(file_data)
+    for i in range(1, 11):
+        params = {'serviceKey': serviceKey, 'type': 'xml', 'pageNo': str(i), 'numOfRows': '1000'}
+        response = requests.get(url, params=params)
+        content = response.content
+        soup = BeautifulSoup(content, "lxml-xml")
+        rows = soup.find_all("row")
+        for row in rows:
+            file_data = OrderedDict()
+            # file_data["restname"] = row.find('restname').get_text()
+            # file_data["restaddr"] = row.find('restaddr').get_text()
+            # file_data["useYn"] = row.find('useYn').get_text()
+            file_data["la"] = row.find('la').get_text()
+            file_data["lo"] = row.find('lo').get_text()
+            if float(file_data["la"]) < 90:
+                shelter.append(file_data)
+
     with open(FILE_PATH, 'w') as outfile:
         json.dump(shelter, outfile, ensure_ascii=False, indent='\t')
-    print(shelter)
-    result = json.dumps(shelter,ensure_ascii=False, indent='\t')
-    return result
