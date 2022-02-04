@@ -27,6 +27,7 @@ class ShareMe(TemplateView):
 
     def post(self, request, **kwargs):
         ins = models.Alarm()
+        print('2')
         data_unicode = request.body.decode('utf-8')
         data = json.loads(data_unicode)
         ins.message = data['message']
