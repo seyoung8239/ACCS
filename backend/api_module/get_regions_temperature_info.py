@@ -94,7 +94,9 @@ def weather_info_parsing():
 
         parsed_data.append(parsing_dict)
 
-    return parsed_data
+    return_data = json.dumps(parsed_data, ensure_ascii=False, indent='\t')
+
+    return return_data
 
 
 def write_json_file(path, data):
