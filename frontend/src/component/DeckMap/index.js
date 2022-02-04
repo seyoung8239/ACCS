@@ -3,7 +3,11 @@ import { StaticMap } from 'react-map-gl';
 import { AmbientLight, PointLight, LightingEffect } from '@deck.gl/core';
 import { HexagonLayer } from '@deck.gl/aggregation-layers';
 import DeckGL from '@deck.gl/react';
+import mapboxgl from 'mapbox-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
+// eslint-disable-next-line
+mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
 const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1Ijoic2V5b3VuZzgyMzkiLCJhIjoiY2tyNHNjdmRvMnl1bDJxcWF3eWhxNG5jbSJ9.sicqPlkDhRVSsvO29xXo3Q';
 const DATA_URL = 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/3d-heatmap/heatmap-data.csv';
 
@@ -98,7 +102,7 @@ const DeckMap = () => {
       }
     })
   ];
-  
+
   return (
     <DeckGL
       layers={layers}
@@ -106,7 +110,7 @@ const DeckMap = () => {
       initialViewState={INITIAL_VIEW_STATE}
       controller={true}
       getTooltip={getTooltip}
-      style={{'position': 'static'}}
+      style={{ 'position': 'static' }}
     >
       <StaticMap mapboxApiAccessToken={MAPBOX_ACCESS_TOKEN} />
     </DeckGL>
