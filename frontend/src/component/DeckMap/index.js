@@ -1,4 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+
+import { shelter } from '../../routeAPI';
+
 import { StaticMap } from 'react-map-gl';
 import { AmbientLight, PointLight, LightingEffect } from '@deck.gl/core';
 import { HexagonLayer } from '@deck.gl/aggregation-layers';
@@ -6,10 +10,10 @@ import DeckGL from '@deck.gl/react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
+
 // eslint-disable-next-line
 mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
 const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1Ijoic2V5b3VuZzgyMzkiLCJhIjoiY2tyNHNjdmRvMnl1bDJxcWF3eWhxNG5jbSJ9.sicqPlkDhRVSsvO29xXo3Q';
-const DATA_URL = 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/3d-heatmap/heatmap-data.csv';
 
 const ambientLight = new AmbientLight({
   color: [255, 255, 255],
@@ -29,13 +33,13 @@ const pointLight2 = new PointLight({
 });
 
 const INITIAL_VIEW_STATE = {
-  longitude: -1.415727,
-  latitude: 52.232395,
-  zoom: 6.6,
+  longitude: 129.5,
+  latitude: 36.5,
+  zoom: 6.3,
   minZoom: 5,
   maxZoom: 15,
-  pitch: 40.5,
-  bearing: -27
+  pitch: 30,
+  bearing: 0
 };
 
 const lightingEffect = new LightingEffect({ ambientLight, pointLight1, pointLight2 });
@@ -67,26 +71,31 @@ function getTooltip({ object }) {
   return `\
     latitude: ${Number.isFinite(lat) ? lat.toFixed(6) : ''}
     longitude: ${Number.isFinite(lng) ? lng.toFixed(6) : ''}
-    ${count} Accidents`;
+    ${count} Places`;
 }
 
 const DeckMap = () => {
-  const [data, setDate] = useState([]);
+  const [data, setData] = useState([]);
 
   useEffect(() => {
-    require('d3-request').csv(DATA_URL, (e, res) => {
-      if (!e) {
-        const tempData = res.map(d => [Number(d.lng), Number(d.lat)]);
-        setDate(tempData);
+    const fetchData = async()=> {
+      try {
+        const res = await axios.get(shelter);
+        const tempData = res.data.map(d => [Number(d.lo), Number(d.la)])
+        setData(tempData.slice(0,950));
+      } catch(e) {
+        console.log(e);
       }
-    })
+    }
+    fetchData();
   }, []);
+  // console.log(data)
 
   const layers = [
     new HexagonLayer({
       id: 'heatmap',
       colorRange,
-      coverage: 1,
+      coverage: 2,
       data,
       elevationRange: [0, 3000],
       elevationScale: data && data.length ? 50 : 0,
