@@ -132,7 +132,7 @@ def get_shelter_data():
 
 def check_place():
     shelter = []
-    for i in range(1, 11):
+    for i in range(1, 51):
         params = {'serviceKey': serviceKey, 'type': 'xml', 'pageNo': str(i), 'numOfRows': '1000'}
         response = requests.get(url, params=params)
         content = response.content
