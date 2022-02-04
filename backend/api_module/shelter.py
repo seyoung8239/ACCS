@@ -123,24 +123,20 @@ def find_short(longitude, latitude):
 def check_place():
     pageNo = 1
     shelter = []
-    for i in range(1, 497):
-        params = {'serviceKey': serviceKey, 'type': 'xml', 'pageNo' : str(pageNo), 'numOfRows' : '100'}
-        response = requests.get(url, params=params)
-        content = response.content
-        soup = BeautifulSoup(content, "lxml-xml")
-        rows = soup.find_all("row")
-        for row in rows:
-            file_data = OrderedDict()
-            file_data["restname"] = row.find('restname').get_text()
-            file_data["restaddr"] = row.find('restaddr').get_text()
-            file_data["useYn"] = row.find('useYn').get_text()
-            file_data["la"] = row.find('la').get_text()
-            file_data["lo"] = row.find('lo').get_text()
-            if file_data["useYn"] == "Y":
-                shelter.append(file_data)
-        pageNo += 1
-        print(pageNo)
+    params = {'serviceKey': serviceKey, 'type': 'xml', 'pageNo' : '1', 'numOfRows' : '1000'}
+    response = requests.get(url, params=params)
+    content = response.content
+    soup = BeautifulSoup(content, "lxml-xml")
+    rows = soup.find_all("row")
+    for row in rows:
+        file_data = OrderedDict()
+        file_data["restname"] = row.find('restname').get_text()
+        file_data["restaddr"] = row.find('restaddr').get_text()
+        file_data["useYn"] = row.find('useYn').get_text()
+        file_data["la"] = row.find('la').get_text()
+        file_data["lo"] = row.find('lo').get_text()
+        if file_data["useYn"] == "Y":
+            shelter.append(file_data)
     with open(FILE_PATH, 'w') as outfile:
         json.dump(shelter, outfile, ensure_ascii=False, indent='\t')
-    print('complete')
     return shelter
