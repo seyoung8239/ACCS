@@ -8,7 +8,7 @@ from datetime import datetime
 from collections import OrderedDict
 
 FILE_PATH = "./api_json/test_warning_data.json"
-EXCEL_PATH = "./area_code.xlsx"
+EXCEL_PATH = "./api_json/area_code.xlsx"
 
 serviceKey = "IQKSvGnIHGhpehEOPDmuuIWdUZ6NEZBoShPV0eLw8rLGqxxq3RAZWa7UV8EDQKSHQybcqwuJaJjufR5NZXDjeg=="
 serviceKeyDecoded = unquote(serviceKey, 'UTF-8')

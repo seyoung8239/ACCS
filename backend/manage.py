@@ -16,7 +16,7 @@ def main():
             "forget to activate a virtual environment?"
         ) from exc
 
-    try :
+    try:
         if sys.argv[2] == 'react':
             project_root = os.getcwd()
             os.chdir(os.path.join(project_root, "frontend"))
