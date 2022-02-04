@@ -32,13 +32,13 @@ const ResponsiveAppBar = () => {
               variant="h5"
               noWrap
               component="div"
-              sx={{ mr: 2, display: { xs: 'none', md: 'flex' }, color: 'white' }}
+              sx={{ mr: 2, display: {md: 'flex' }, color: 'white' }}
             >
               ACCS
             </Typography>
           </Button>
 
-          <Box sx={{ flexGrow: 1, display: { md: 'flex' }}}>
+          <Box sx={{ flexGrow: 1, display: {xs:'none', md: 'flex' }}}>
             {pages.map((page, i) => (
               <Button
                 component={NavLink}

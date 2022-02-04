@@ -82,20 +82,20 @@ const DeckMap = () => {
       try {
         const res = await axios.get(shelter);
         const tempData = res.data.map(d => [Number(d.lo), Number(d.la)])
-        setData(tempData.slice(0,950));
+        setData(tempData);
       } catch(e) {
         console.log(e);
       }
     }
     fetchData();
   }, []);
-  // console.log(data)
+  console.log(data)
 
   const layers = [
     new HexagonLayer({
       id: 'heatmap',
       colorRange,
-      coverage: 2,
+      coverage: 1.2,
       data,
       elevationRange: [0, 3000],
       elevationScale: data && data.length ? 50 : 0,
@@ -103,9 +103,8 @@ const DeckMap = () => {
       getPosition: d => d,
       pickable: true,
       radius: 1000,
-      upperPercentile: 100,
+      upperPercentile: 99.7,
       material,
-
       transitions: {
         elevationScale: 3000
       }
