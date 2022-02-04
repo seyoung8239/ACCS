@@ -51,6 +51,9 @@ def get_heatwave_data():
     now = datetime.now()
     current_year = int(now.year)
 
+    total_list = list()
+    region_list = list()
+
     for year in range(2016, current_year):
         query_params = '?' + urlencode({quote_plus('ServiceKey'): serviceKeyDecoded, quote_plus('type'): returnType,
                                         quote_plus('numOfRows'): numOfRows, quote_plus('pageNo'): pageNo,
@@ -64,14 +67,18 @@ def get_heatwave_data():
             total_data = xml_data[0]
             region_data = xml_data[1:]
 
+            total_list.append(xml_to_dict(total_data))
+
             TOTAL_DATA[str(year)] = xml_to_dict(total_data)
             REGION_DATA[str(year)] = list()
 
             for rd in region_data:
                 REGION_DATA[str(year)].append(xml_to_dict(rd))
 
-        total_json = json.dumps(TOTAL_DATA, ensure_ascii=False, indent='\t')  # total dict to json
-        region_json = json.dumps(REGION_DATA, ensure_ascii=False, indent='\t')  # region dict to json
+            region_list.append(REGION_DATA[str(year)])
+
+        total_json = json.dumps(total_list, ensure_ascii=False, indent='\t')  # total dict to json
+        region_json = json.dumps(region_list, ensure_ascii=False, indent='\t')  # region dict to json
 
         write_json_file(total_json, region_json)  # 받아온 total, region 온열 질환자 데이터 json 파일로 저장
 
