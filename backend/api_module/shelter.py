@@ -139,5 +139,6 @@ def check_place():
             shelter.append(file_data)
     with open(FILE_PATH, 'w') as outfile:
         json.dump(shelter, outfile, ensure_ascii=False, indent='\t')
+    print(shelter)
     result = json.dumps(shelter,ensure_ascii=False, indent='\t')
     return result
