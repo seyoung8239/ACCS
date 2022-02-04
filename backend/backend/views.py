@@ -4,7 +4,7 @@ from api_module import shelter, heatwave_casualties_region, inquiry_response_hea
 
 
 def find_shelter(request):
-    res = shelter.check_place()
+    res = shelter.get_shelter_data()
     return HttpResponse(res)
 
 
