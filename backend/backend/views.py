@@ -1,5 +1,6 @@
 from django.http import HttpResponse
-from api_module import shelter, heatwave_casualties_region, inquiry_response_heatwave, get_regions_temperature_info
+from api_module import shelter, heatwave_casualties_region, inquiry_response_heatwave, get_regions_temperature_info, \
+    get_heatwave_warning
 
 
 def find_shelter(request):
@@ -29,5 +30,11 @@ def inquiry_response_heatwave_by_field(request, field):
 
 def get_each_region_temperature_info(request):
     data = get_regions_temperature_info.weather_info_parsing()
+
+    return HttpResponse(data)
+
+
+def get_day_region_warning_data(request):
+    data = get_heatwave_warning.warning_data_parsing()
 
     return HttpResponse(data)
