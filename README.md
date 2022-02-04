@@ -36,14 +36,14 @@ npm start
   - docker
   - redis
   
-- 배포된 서비스 이용(아래 url로 접근 가능)
+## 배포된 서비스 이용(아래 url로 접근 가능)
 > http://34.64.174.66:8000/
  ```
  cd backend
  python manage.py runserver
  ```
  
- ### 기능 설명
+ ## 기능 설명
  /heatwave/total
  > 온열질환자에 대한 전국 통계 api
  
@@ -60,4 +60,4 @@ npm start
  > 사용자 위치별 가장 가까운 무더위쉼터 정보, category별 대처요령 유저에게 socket을 통해 전송
  
  /Alarm
- > socket을 통해 전달받은 정보 표시
+ > client와 socket 연결 및 socket을 통해 전달받은 정보 표시 
