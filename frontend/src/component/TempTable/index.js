@@ -2,11 +2,15 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import useStyles from './styles';
 
+import TableContainer from '@mui/material/TableContainer';
+import Paper from '@mui/material/Paper';
 import Table from '@mui/material/Table';
 import TableHead from '@mui/material/TableHead';
 import TableBody from '@mui/material/TableBody';
 import TableRow from '@mui/material/TableRow';
 import TableCell from '@mui/material/TableCell';
+
+import { temperatureInfo } from '../../routeAPI';
 
 const TempTable = () => {
   const classes = useStyles();
@@ -16,36 +20,47 @@ const TempTable = () => {
   useEffect(()=> {
     const fetchData = async() => {
       try {
-        const res = await axios.get('');
+        const res = await axios.get(temperatureInfo);
         setData(res.data);
       } catch(e) {
         console.log(e)
       }
       setIsLoading(true);
     };
-    // fetchData();
+    fetchData();
   }, []);
 
   if(!isLoading) return <>Loading..</>
   if(!data) return <>No data..</>
 
+  console.log(data);
+
   return (<>
-    <Table>
-      <Table>
-        <TableHead>
-          <TableRow>
-            <TableCell>지역</TableCell>
-            <TableCell>기온</TableCell>
+    <div className={classes.box}/>
+    <div className={classes.table}>
+      <Table stickyHeader>
+        <TableHead >
+          <TableRow className={classes.tableHeader}>
+            <TableCell><b>지역</b></TableCell>
+            <TableCell><b>최대 기온</b></TableCell>
+            <TableCell><b>평균 기온</b></TableCell>
+            <TableCell><b>최소 기온</b></TableCell>
+            <TableCell><b>위험도</b></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {data.map((row, i)=>(
             <TableRow key={i}>
+              <TableCell><b>{row.stnNm}</b></TableCell>
+              <TableCell>{row.maxTa}</TableCell>
+              <TableCell>{row.avgTa}</TableCell>
+              <TableCell>{row.minTa}</TableCell>
+              <TableCell>{row.value}</TableCell>
             </TableRow>
           ))}
         </TableBody>
       </Table>
-    </Table>
+    </div>
   </>)
 }
 
