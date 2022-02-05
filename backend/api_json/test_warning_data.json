@@ -1,0 +1,6609 @@
+{
+  "광명시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1010200",
+              "tmEf": "20220204",
+              "regName": "광명시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010200",
+              "tmEf": "20220204",
+              "regName": "광명시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010200",
+              "tmEf": "20220204",
+              "regName": "광명시",
+              "clsfc": "시설물",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 3
+      }
+    }
+  },
+  "과천시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1010300",
+              "tmEf": "20220204",
+              "regName": "과천시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010300",
+              "tmEf": "20220204",
+              "regName": "과천시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010300",
+              "tmEf": "20220204",
+              "regName": "과천시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1010300",
+              "tmEf": "20220204",
+              "regName": "과천시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010300",
+              "tmEf": "20220204",
+              "regName": "과천시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "안산시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1010400",
+              "tmEf": "20220204",
+              "regName": "안산시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010400",
+              "tmEf": "20220204",
+              "regName": "안산시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010400",
+              "tmEf": "20220204",
+              "regName": "안산시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1010400",
+              "tmEf": "20220204",
+              "regName": "안산시",
+              "clsfc": "수산양식",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010400",
+              "tmEf": "20220204",
+              "regName": "안산시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "시흥시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1010500",
+              "tmEf": "20220204",
+              "regName": "시흥시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010500",
+              "tmEf": "20220204",
+              "regName": "시흥시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010500",
+              "tmEf": "20220204",
+              "regName": "시흥시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1010500",
+              "tmEf": "20220204",
+              "regName": "시흥시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010500",
+              "tmEf": "20220204",
+              "regName": "시흥시",
+              "clsfc": "수산양식",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010500",
+              "tmEf": "20220204",
+              "regName": "시흥시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 6
+      }
+    }
+  },
+  "부천시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1010600",
+              "tmEf": "20220204",
+              "regName": "부천시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010600",
+              "tmEf": "20220204",
+              "regName": "부천시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010600",
+              "tmEf": "20220204",
+              "regName": "부천시",
+              "clsfc": "시설물",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 3
+      }
+    }
+  },
+  "김포시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1010700",
+              "tmEf": "20220204",
+              "regName": "김포시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1010700",
+              "tmEf": "20220204",
+              "regName": "김포시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1010700",
+              "tmEf": "20220204",
+              "regName": "김포시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1010700",
+              "tmEf": "20220204",
+              "regName": "김포시",
+              "clsfc": "수산양식",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010700",
+              "tmEf": "20220204",
+              "regName": "김포시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "인천광역시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1010800",
+              "tmEf": "20220204",
+              "regName": "인천광역시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010800",
+              "tmEf": "20220204",
+              "regName": "인천광역시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010800",
+              "tmEf": "20220204",
+              "regName": "인천광역시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1010800",
+              "tmEf": "20220204",
+              "regName": "인천광역시",
+              "clsfc": "수산양식",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "강화군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1010900",
+              "tmEf": "20220204",
+              "regName": "강화군",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1010900",
+              "tmEf": "20220204",
+              "regName": "강화군",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1010900",
+              "tmEf": "20220204",
+              "regName": "강화군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1010900",
+              "tmEf": "20220204",
+              "regName": "강화군",
+              "clsfc": "수산양식",
+              "value": "관심"
+            },
+            {
+              "regId": "L1010900",
+              "tmEf": "20220204",
+              "regName": "강화군",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "동두천시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1011100",
+              "tmEf": "20220204",
+              "regName": "동두천시",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011100",
+              "tmEf": "20220204",
+              "regName": "동두천시",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011100",
+              "tmEf": "20220204",
+              "regName": "동두천시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011100",
+              "tmEf": "20220204",
+              "regName": "동두천시",
+              "clsfc": "농축산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1011100",
+              "tmEf": "20220204",
+              "regName": "동두천시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "연천군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1011200",
+              "tmEf": "20220204",
+              "regName": "연천군",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011200",
+              "tmEf": "20220204",
+              "regName": "연천군",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011200",
+              "tmEf": "20220204",
+              "regName": "연천군",
+              "clsfc": "시설물",
+              "value": "심각"
+            },
+            {
+              "regId": "L1011200",
+              "tmEf": "20220204",
+              "regName": "연천군",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1011200",
+              "tmEf": "20220204",
+              "regName": "연천군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "포천시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1011300",
+              "tmEf": "20220204",
+              "regName": "포천시",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011300",
+              "tmEf": "20220204",
+              "regName": "포천시",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011300",
+              "tmEf": "20220204",
+              "regName": "포천시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011300",
+              "tmEf": "20220204",
+              "regName": "포천시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "가평군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1011400",
+              "tmEf": "20220204",
+              "regName": "가평군",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011400",
+              "tmEf": "20220204",
+              "regName": "가평군",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011400",
+              "tmEf": "20220204",
+              "regName": "가평군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011400",
+              "tmEf": "20220204",
+              "regName": "가평군",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1011400",
+              "tmEf": "20220204",
+              "regName": "가평군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "고양시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1011500",
+              "tmEf": "20220204",
+              "regName": "고양시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1011500",
+              "tmEf": "20220204",
+              "regName": "고양시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1011500",
+              "tmEf": "20220204",
+              "regName": "고양시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011500",
+              "tmEf": "20220204",
+              "regName": "고양시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1011500",
+              "tmEf": "20220204",
+              "regName": "고양시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "양주시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1011600",
+              "tmEf": "20220204",
+              "regName": "양주시",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011600",
+              "tmEf": "20220204",
+              "regName": "양주시",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011600",
+              "tmEf": "20220204",
+              "regName": "양주시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011600",
+              "tmEf": "20220204",
+              "regName": "양주시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1011600",
+              "tmEf": "20220204",
+              "regName": "양주시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "의정부시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1011700",
+              "tmEf": "20220204",
+              "regName": "의정부시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1011700",
+              "tmEf": "20220204",
+              "regName": "의정부시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1011700",
+              "tmEf": "20220204",
+              "regName": "의정부시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011700",
+              "tmEf": "20220204",
+              "regName": "의정부시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1011700",
+              "tmEf": "20220204",
+              "regName": "의정부시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "파주시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1011800",
+              "tmEf": "20220204",
+              "regName": "파주시",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011800",
+              "tmEf": "20220204",
+              "regName": "파주시",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011800",
+              "tmEf": "20220204",
+              "regName": "파주시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011800",
+              "tmEf": "20220204",
+              "regName": "파주시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1011800",
+              "tmEf": "20220204",
+              "regName": "파주시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "수원시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1011900",
+              "tmEf": "20220204",
+              "regName": "수원시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1011900",
+              "tmEf": "20220204",
+              "regName": "수원시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1011900",
+              "tmEf": "20220204",
+              "regName": "수원시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1011900",
+              "tmEf": "20220204",
+              "regName": "수원시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1011900",
+              "tmEf": "20220204",
+              "regName": "수원시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "성남시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1012000",
+              "tmEf": "20220204",
+              "regName": "성남시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012000",
+              "tmEf": "20220204",
+              "regName": "성남시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012000",
+              "tmEf": "20220204",
+              "regName": "성남시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1012000",
+              "tmEf": "20220204",
+              "regName": "성남시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012000",
+              "tmEf": "20220204",
+              "regName": "성남시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "안양시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1012100",
+              "tmEf": "20220204",
+              "regName": "안양시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012100",
+              "tmEf": "20220204",
+              "regName": "안양시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012100",
+              "tmEf": "20220204",
+              "regName": "안양시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1012100",
+              "tmEf": "20220204",
+              "regName": "안양시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "구리시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1012200",
+              "tmEf": "20220204",
+              "regName": "구리시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012200",
+              "tmEf": "20220204",
+              "regName": "구리시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012200",
+              "tmEf": "20220204",
+              "regName": "구리시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1012200",
+              "tmEf": "20220204",
+              "regName": "구리시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "남양주시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1012300",
+              "tmEf": "20220204",
+              "regName": "남양주시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1012300",
+              "tmEf": "20220204",
+              "regName": "남양주시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1012300",
+              "tmEf": "20220204",
+              "regName": "남양주시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1012300",
+              "tmEf": "20220204",
+              "regName": "남양주시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "오산시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1012400",
+              "tmEf": "20220204",
+              "regName": "오산시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012400",
+              "tmEf": "20220204",
+              "regName": "오산시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012400",
+              "tmEf": "20220204",
+              "regName": "오산시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1012400",
+              "tmEf": "20220204",
+              "regName": "오산시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "평택시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1012500",
+              "tmEf": "20220204",
+              "regName": "평택시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012500",
+              "tmEf": "20220204",
+              "regName": "평택시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012500",
+              "tmEf": "20220204",
+              "regName": "평택시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1012500",
+              "tmEf": "20220204",
+              "regName": "평택시",
+              "clsfc": "수산양식",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012500",
+              "tmEf": "20220204",
+              "regName": "평택시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "군포시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1012600",
+              "tmEf": "20220204",
+              "regName": "군포시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012600",
+              "tmEf": "20220204",
+              "regName": "군포시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012600",
+              "tmEf": "20220204",
+              "regName": "군포시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1012600",
+              "tmEf": "20220204",
+              "regName": "군포시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012600",
+              "tmEf": "20220204",
+              "regName": "군포시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "의왕시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1012700",
+              "tmEf": "20220204",
+              "regName": "의왕시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012700",
+              "tmEf": "20220204",
+              "regName": "의왕시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012700",
+              "tmEf": "20220204",
+              "regName": "의왕시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1012700",
+              "tmEf": "20220204",
+              "regName": "의왕시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012700",
+              "tmEf": "20220204",
+              "regName": "의왕시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "하남시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1012800",
+              "tmEf": "20220204",
+              "regName": "하남시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012800",
+              "tmEf": "20220204",
+              "regName": "하남시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012800",
+              "tmEf": "20220204",
+              "regName": "하남시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1012800",
+              "tmEf": "20220204",
+              "regName": "하남시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012800",
+              "tmEf": "20220204",
+              "regName": "하남시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "용인시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1012900",
+              "tmEf": "20220204",
+              "regName": "용인시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1012900",
+              "tmEf": "20220204",
+              "regName": "용인시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1012900",
+              "tmEf": "20220204",
+              "regName": "용인시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1012900",
+              "tmEf": "20220204",
+              "regName": "용인시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1012900",
+              "tmEf": "20220204",
+              "regName": "용인시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "이천시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1013000",
+              "tmEf": "20220204",
+              "regName": "이천시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013000",
+              "tmEf": "20220204",
+              "regName": "이천시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013000",
+              "tmEf": "20220204",
+              "regName": "이천시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1013000",
+              "tmEf": "20220204",
+              "regName": "이천시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1013000",
+              "tmEf": "20220204",
+              "regName": "이천시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "안성시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1013100",
+              "tmEf": "20220204",
+              "regName": "안성시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013100",
+              "tmEf": "20220204",
+              "regName": "안성시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013100",
+              "tmEf": "20220204",
+              "regName": "안성시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1013100",
+              "tmEf": "20220204",
+              "regName": "안성시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "화성시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1013200",
+              "tmEf": "20220204",
+              "regName": "화성시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1013200",
+              "tmEf": "20220204",
+              "regName": "화성시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1013200",
+              "tmEf": "20220204",
+              "regName": "화성시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013200",
+              "tmEf": "20220204",
+              "regName": "화성시",
+              "clsfc": "수산양식",
+              "value": "관심"
+            },
+            {
+              "regId": "L1013200",
+              "tmEf": "20220204",
+              "regName": "화성시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "여주시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1013300",
+              "tmEf": "20220204",
+              "regName": "여주군",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013300",
+              "tmEf": "20220204",
+              "regName": "여주시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013300",
+              "tmEf": "20220204",
+              "regName": "여주군",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013300",
+              "tmEf": "20220204",
+              "regName": "여주시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013300",
+              "tmEf": "20220204",
+              "regName": "여주군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1013300",
+              "tmEf": "20220204",
+              "regName": "여주시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1013300",
+              "tmEf": "20220204",
+              "regName": "여주군",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1013300",
+              "tmEf": "20220204",
+              "regName": "여주시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1013300",
+              "tmEf": "20220204",
+              "regName": "여주군",
+              "clsfc": "기타",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013300",
+              "tmEf": "20220204",
+              "regName": "여주시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 10
+      }
+    }
+  },
+  "광주시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1013400",
+              "tmEf": "20220204",
+              "regName": "광주시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013400",
+              "tmEf": "20220204",
+              "regName": "광주시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013400",
+              "tmEf": "20220204",
+              "regName": "광주시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1013400",
+              "tmEf": "20220204",
+              "regName": "광주시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1013400",
+              "tmEf": "20220204",
+              "regName": "광주시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "양평군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1013500",
+              "tmEf": "20220204",
+              "regName": "양평군",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013500",
+              "tmEf": "20220204",
+              "regName": "양평군",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1013500",
+              "tmEf": "20220204",
+              "regName": "양평군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1013500",
+              "tmEf": "20220204",
+              "regName": "양평군",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1013500",
+              "tmEf": "20220204",
+              "regName": "양평군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "옹진군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "서해5도": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "강릉시평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1020110",
+              "tmEf": "20220204",
+              "regName": "강릉시평지",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1020110",
+              "tmEf": "20220204",
+              "regName": "강릉시평지",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1020110",
+              "tmEf": "20220204",
+              "regName": "강릉시평지",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1020110",
+              "tmEf": "20220204",
+              "regName": "강릉시평지",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "동해시평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1020210",
+              "tmEf": "20220204",
+              "regName": "동해시평지",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1020210",
+              "tmEf": "20220204",
+              "regName": "동해시평지",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1020210",
+              "tmEf": "20220204",
+              "regName": "동해시평지",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1020210",
+              "tmEf": "20220204",
+              "regName": "동해시평지",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "태백시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1020300",
+              "tmEf": "20220204",
+              "regName": "태백시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1020300",
+              "tmEf": "20220204",
+              "regName": "태백시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1020300",
+              "tmEf": "20220204",
+              "regName": "태백시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1020300",
+              "tmEf": "20220204",
+              "regName": "태백시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "삼척시평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1020410",
+              "tmEf": "20220204",
+              "regName": "삼척시평지",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1020410",
+              "tmEf": "20220204",
+              "regName": "삼척시평지",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1020410",
+              "tmEf": "20220204",
+              "regName": "삼척시평지",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1020410",
+              "tmEf": "20220204",
+              "regName": "삼척시평지",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "속초시평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1020510",
+              "tmEf": "20220204",
+              "regName": "속초시평지",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1020510",
+              "tmEf": "20220204",
+              "regName": "속초시평지",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1020510",
+              "tmEf": "20220204",
+              "regName": "속초시평지",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1020510",
+              "tmEf": "20220204",
+              "regName": "속초시평지",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "고성군평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1020610",
+              "tmEf": "20220204",
+              "regName": "고성군평지",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1020610",
+              "tmEf": "20220204",
+              "regName": "고성군평지",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1020610",
+              "tmEf": "20220204",
+              "regName": "고성군평지",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1020610",
+              "tmEf": "20220204",
+              "regName": "고성군평지",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "양양군평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1020710",
+              "tmEf": "20220204",
+              "regName": "양양군평지",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1020710",
+              "tmEf": "20220204",
+              "regName": "양양군평지",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1020710",
+              "tmEf": "20220204",
+              "regName": "양양군평지",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1020710",
+              "tmEf": "20220204",
+              "regName": "양양군평지",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "영월군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1020800",
+              "tmEf": "20220204",
+              "regName": "영월군",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1020800",
+              "tmEf": "20220204",
+              "regName": "영월군",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1020800",
+              "tmEf": "20220204",
+              "regName": "영월군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1020800",
+              "tmEf": "20220204",
+              "regName": "영월군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "평창군평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1020910",
+              "tmEf": "20220204",
+              "regName": "평창군평지",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1020910",
+              "tmEf": "20220204",
+              "regName": "평창군평지",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1020910",
+              "tmEf": "20220204",
+              "regName": "평창군평지",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1020910",
+              "tmEf": "20220204",
+              "regName": "평창군평지",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "정선군평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1021010",
+              "tmEf": "20220204",
+              "regName": "정선군평지",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1021010",
+              "tmEf": "20220204",
+              "regName": "정선군평지",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1021010",
+              "tmEf": "20220204",
+              "regName": "정선군평지",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021010",
+              "tmEf": "20220204",
+              "regName": "정선군평지",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "횡성군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1021100",
+              "tmEf": "20220204",
+              "regName": "횡성군",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021100",
+              "tmEf": "20220204",
+              "regName": "횡성군",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021100",
+              "tmEf": "20220204",
+              "regName": "횡성군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021100",
+              "tmEf": "20220204",
+              "regName": "횡성군",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1021100",
+              "tmEf": "20220204",
+              "regName": "횡성군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "원주시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1021200",
+              "tmEf": "20220204",
+              "regName": "원주시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1021200",
+              "tmEf": "20220204",
+              "regName": "원주시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1021200",
+              "tmEf": "20220204",
+              "regName": "원주시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021200",
+              "tmEf": "20220204",
+              "regName": "원주시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1021200",
+              "tmEf": "20220204",
+              "regName": "원주시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "철원군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1021300",
+              "tmEf": "20220204",
+              "regName": "철원군",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021300",
+              "tmEf": "20220204",
+              "regName": "철원군",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021300",
+              "tmEf": "20220204",
+              "regName": "철원군",
+              "clsfc": "시설물",
+              "value": "심각"
+            },
+            {
+              "regId": "L1021300",
+              "tmEf": "20220204",
+              "regName": "철원군",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1021300",
+              "tmEf": "20220204",
+              "regName": "철원군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "화천군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1021400",
+              "tmEf": "20220204",
+              "regName": "화천군",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021400",
+              "tmEf": "20220204",
+              "regName": "화천군",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021400",
+              "tmEf": "20220204",
+              "regName": "화천군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021400",
+              "tmEf": "20220204",
+              "regName": "화천군",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1021400",
+              "tmEf": "20220204",
+              "regName": "화천군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "홍천군평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1021510",
+              "tmEf": "20220204",
+              "regName": "홍천군평지",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021510",
+              "tmEf": "20220204",
+              "regName": "홍천군평지",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021510",
+              "tmEf": "20220204",
+              "regName": "홍천군평지",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021510",
+              "tmEf": "20220204",
+              "regName": "홍천군평지",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "춘천시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1021600",
+              "tmEf": "20220204",
+              "regName": "춘천시",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021600",
+              "tmEf": "20220204",
+              "regName": "춘천시",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021600",
+              "tmEf": "20220204",
+              "regName": "춘천시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021600",
+              "tmEf": "20220204",
+              "regName": "춘천시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1021600",
+              "tmEf": "20220204",
+              "regName": "춘천시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "양구군평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1021710",
+              "tmEf": "20220204",
+              "regName": "양구군평지",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021710",
+              "tmEf": "20220204",
+              "regName": "양구군평지",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021710",
+              "tmEf": "20220204",
+              "regName": "양구군평지",
+              "clsfc": "시설물",
+              "value": "심각"
+            },
+            {
+              "regId": "L1021710",
+              "tmEf": "20220204",
+              "regName": "양구군평지",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "인제군평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1021810",
+              "tmEf": "20220204",
+              "regName": "인제군평지",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021810",
+              "tmEf": "20220204",
+              "regName": "인제군평지",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021810",
+              "tmEf": "20220204",
+              "regName": "인제군평지",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1021810",
+              "tmEf": "20220204",
+              "regName": "인제군평지",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "강원북부산지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1025020",
+              "tmEf": "20220204",
+              "regName": "강원북부산지",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1025020",
+              "tmEf": "20220204",
+              "regName": "강원북부산지",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1025020",
+              "tmEf": "20220204",
+              "regName": "강원북부산지",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1025020",
+              "tmEf": "20220204",
+              "regName": "강원북부산지",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1025020",
+              "tmEf": "20220204",
+              "regName": "강원북부산지",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "강원중부산지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1026020",
+              "tmEf": "20220204",
+              "regName": "강원중부산지",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1026020",
+              "tmEf": "20220204",
+              "regName": "강원중부산지",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1026020",
+              "tmEf": "20220204",
+              "regName": "강원중부산지",
+              "clsfc": "시설물",
+              "value": "심각"
+            },
+            {
+              "regId": "L1026020",
+              "tmEf": "20220204",
+              "regName": "강원중부산지",
+              "clsfc": "농축산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1026020",
+              "tmEf": "20220204",
+              "regName": "강원중부산지",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "강원남부산지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1027020",
+              "tmEf": "20220204",
+              "regName": "강원남부산지",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1027020",
+              "tmEf": "20220204",
+              "regName": "강원남부산지",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1027020",
+              "tmEf": "20220204",
+              "regName": "강원남부산지",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1027020",
+              "tmEf": "20220204",
+              "regName": "강원남부산지",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "대전광역시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1030100",
+              "tmEf": "20220204",
+              "regName": "대전광역시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1030100",
+              "tmEf": "20220204",
+              "regName": "대전광역시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1030100",
+              "tmEf": "20220204",
+              "regName": "대전광역시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1030100",
+              "tmEf": "20220204",
+              "regName": "대전광역시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "천안시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1030200",
+              "tmEf": "20220204",
+              "regName": "천안시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1030200",
+              "tmEf": "20220204",
+              "regName": "천안시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1030200",
+              "tmEf": "20220204",
+              "regName": "천안시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1030200",
+              "tmEf": "20220204",
+              "regName": "천안시",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "공주시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1030300",
+              "tmEf": "20220204",
+              "regName": "공주시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1030300",
+              "tmEf": "20220204",
+              "regName": "공주시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1030300",
+              "tmEf": "20220204",
+              "regName": "공주시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1030300",
+              "tmEf": "20220204",
+              "regName": "공주시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1030300",
+              "tmEf": "20220204",
+              "regName": "공주시",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "아산시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1030400",
+              "tmEf": "20220204",
+              "regName": "아산시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1030400",
+              "tmEf": "20220204",
+              "regName": "아산시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1030400",
+              "tmEf": "20220204",
+              "regName": "아산시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1030400",
+              "tmEf": "20220204",
+              "regName": "아산시",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "논산시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1030500",
+              "tmEf": "20220204",
+              "regName": "논산시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1030500",
+              "tmEf": "20220204",
+              "regName": "논산시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1030500",
+              "tmEf": "20220204",
+              "regName": "논산시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1030500",
+              "tmEf": "20220204",
+              "regName": "논산시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "금산군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1030600",
+              "tmEf": "20220204",
+              "regName": "금산군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1030600",
+              "tmEf": "20220204",
+              "regName": "금산군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1030600",
+              "tmEf": "20220204",
+              "regName": "금산군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1030600",
+              "tmEf": "20220204",
+              "regName": "금산군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "부여군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1030800",
+              "tmEf": "20220204",
+              "regName": "부여군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1030800",
+              "tmEf": "20220204",
+              "regName": "부여군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1030800",
+              "tmEf": "20220204",
+              "regName": "부여군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1030800",
+              "tmEf": "20220204",
+              "regName": "부여군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "청양군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1030900",
+              "tmEf": "20220204",
+              "regName": "청양군",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1030900",
+              "tmEf": "20220204",
+              "regName": "청양군",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1030900",
+              "tmEf": "20220204",
+              "regName": "청양군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1030900",
+              "tmEf": "20220204",
+              "regName": "청양군",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1030900",
+              "tmEf": "20220204",
+              "regName": "청양군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "예산군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1031000",
+              "tmEf": "20220204",
+              "regName": "예산군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031000",
+              "tmEf": "20220204",
+              "regName": "예산군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031000",
+              "tmEf": "20220204",
+              "regName": "예산군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1031000",
+              "tmEf": "20220204",
+              "regName": "예산군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "태안군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "당진시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1031200",
+              "tmEf": "20220204",
+              "regName": "당진시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031200",
+              "tmEf": "20220204",
+              "regName": "당진시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031200",
+              "tmEf": "20220204",
+              "regName": "당진시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1031200",
+              "tmEf": "20220204",
+              "regName": "당진시",
+              "clsfc": "수산양식",
+              "value": "주의"
+            },
+            {
+              "regId": "L1031200",
+              "tmEf": "20220204",
+              "regName": "당진시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "서산시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1031300",
+              "tmEf": "20220204",
+              "regName": "서산시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031300",
+              "tmEf": "20220204",
+              "regName": "서산시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031300",
+              "tmEf": "20220204",
+              "regName": "서산시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1031300",
+              "tmEf": "20220204",
+              "regName": "서산시",
+              "clsfc": "수산양식",
+              "value": "심각"
+            },
+            {
+              "regId": "L1031300",
+              "tmEf": "20220204",
+              "regName": "서산시",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "보령시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1031400",
+              "tmEf": "20220204",
+              "regName": "보령시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031400",
+              "tmEf": "20220204",
+              "regName": "보령시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031400",
+              "tmEf": "20220204",
+              "regName": "보령시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1031400",
+              "tmEf": "20220204",
+              "regName": "보령시",
+              "clsfc": "수산양식",
+              "value": "주의"
+            },
+            {
+              "regId": "L1031400",
+              "tmEf": "20220204",
+              "regName": "보령시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "서천군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1031500",
+              "tmEf": "20220204",
+              "regName": "서천군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031500",
+              "tmEf": "20220204",
+              "regName": "서천군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031500",
+              "tmEf": "20220204",
+              "regName": "서천군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1031500",
+              "tmEf": "20220204",
+              "regName": "서천군",
+              "clsfc": "수산양식",
+              "value": "주의"
+            },
+            {
+              "regId": "L1031500",
+              "tmEf": "20220204",
+              "regName": "서천군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "홍성군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1031600",
+              "tmEf": "20220204",
+              "regName": "홍성군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031600",
+              "tmEf": "20220204",
+              "regName": "홍성군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031600",
+              "tmEf": "20220204",
+              "regName": "홍성군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1031600",
+              "tmEf": "20220204",
+              "regName": "홍성군",
+              "clsfc": "수산양식",
+              "value": "심각"
+            },
+            {
+              "regId": "L1031600",
+              "tmEf": "20220204",
+              "regName": "홍성군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "계룡시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1031700",
+              "tmEf": "20220204",
+              "regName": "계룡시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1031700",
+              "tmEf": "20220204",
+              "regName": "계룡시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1031700",
+              "tmEf": "20220204",
+              "regName": "계룡시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1031700",
+              "tmEf": "20220204",
+              "regName": "계룡시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031700",
+              "tmEf": "20220204",
+              "regName": "계룡시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "세종특별자치시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1031800",
+              "tmEf": "20220204",
+              "regName": "세종특별자치시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031800",
+              "tmEf": "20220204",
+              "regName": "세종특별자치시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1031800",
+              "tmEf": "20220204",
+              "regName": "세종특별자치시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1031800",
+              "tmEf": "20220204",
+              "regName": "세종특별자치시",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "청주시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1040100",
+              "tmEf": "20220204",
+              "regName": "청주시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1040100",
+              "tmEf": "20220204",
+              "regName": "청주시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1040100",
+              "tmEf": "20220204",
+              "regName": "청주시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1040100",
+              "tmEf": "20220204",
+              "regName": "청주시",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "보은군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1040300",
+              "tmEf": "20220204",
+              "regName": "보은군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1040300",
+              "tmEf": "20220204",
+              "regName": "보은군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1040300",
+              "tmEf": "20220204",
+              "regName": "보은군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1040300",
+              "tmEf": "20220204",
+              "regName": "보은군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "괴산군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1040400",
+              "tmEf": "20220204",
+              "regName": "괴산군",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1040400",
+              "tmEf": "20220204",
+              "regName": "괴산군",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1040400",
+              "tmEf": "20220204",
+              "regName": "괴산군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1040400",
+              "tmEf": "20220204",
+              "regName": "괴산군",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1040400",
+              "tmEf": "20220204",
+              "regName": "괴산군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "옥천군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1040600",
+              "tmEf": "20220204",
+              "regName": "옥천군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1040600",
+              "tmEf": "20220204",
+              "regName": "옥천군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1040600",
+              "tmEf": "20220204",
+              "regName": "옥천군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1040600",
+              "tmEf": "20220204",
+              "regName": "옥천군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "영동군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1040700",
+              "tmEf": "20220204",
+              "regName": "영동군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1040700",
+              "tmEf": "20220204",
+              "regName": "영동군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1040700",
+              "tmEf": "20220204",
+              "regName": "영동군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1040700",
+              "tmEf": "20220204",
+              "regName": "영동군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "충주시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1040800",
+              "tmEf": "20220204",
+              "regName": "충주시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1040800",
+              "tmEf": "20220204",
+              "regName": "충주시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1040800",
+              "tmEf": "20220204",
+              "regName": "충주시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1040800",
+              "tmEf": "20220204",
+              "regName": "충주시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1040800",
+              "tmEf": "20220204",
+              "regName": "충주시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "제천시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1040900",
+              "tmEf": "20220204",
+              "regName": "제천시",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1040900",
+              "tmEf": "20220204",
+              "regName": "제천시",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1040900",
+              "tmEf": "20220204",
+              "regName": "제천시",
+              "clsfc": "시설물",
+              "value": "심각"
+            },
+            {
+              "regId": "L1040900",
+              "tmEf": "20220204",
+              "regName": "제천시",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1040900",
+              "tmEf": "20220204",
+              "regName": "제천시",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "진천군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1041000",
+              "tmEf": "20220204",
+              "regName": "진천군",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1041000",
+              "tmEf": "20220204",
+              "regName": "진천군",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1041000",
+              "tmEf": "20220204",
+              "regName": "진천군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1041000",
+              "tmEf": "20220204",
+              "regName": "진천군",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1041000",
+              "tmEf": "20220204",
+              "regName": "진천군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "음성군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1041100",
+              "tmEf": "20220204",
+              "regName": "음성군",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1041100",
+              "tmEf": "20220204",
+              "regName": "음성군",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1041100",
+              "tmEf": "20220204",
+              "regName": "음성군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1041100",
+              "tmEf": "20220204",
+              "regName": "음성군",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1041100",
+              "tmEf": "20220204",
+              "regName": "음성군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "단양군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1041200",
+              "tmEf": "20220204",
+              "regName": "단양군",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1041200",
+              "tmEf": "20220204",
+              "regName": "단양군",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1041200",
+              "tmEf": "20220204",
+              "regName": "단양군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1041200",
+              "tmEf": "20220204",
+              "regName": "단양군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "증평군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1041300",
+              "tmEf": "20220204",
+              "regName": "증평군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1041300",
+              "tmEf": "20220204",
+              "regName": "증평군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1041300",
+              "tmEf": "20220204",
+              "regName": "증평군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1041300",
+              "tmEf": "20220204",
+              "regName": "증평군",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1041300",
+              "tmEf": "20220204",
+              "regName": "증평군",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "광주광역시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1050100",
+              "tmEf": "20220204",
+              "regName": "광주광역시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050100",
+              "tmEf": "20220204",
+              "regName": "광주광역시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050100",
+              "tmEf": "20220204",
+              "regName": "광주광역시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 3
+      }
+    }
+  },
+  "나주시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1050200",
+              "tmEf": "20220204",
+              "regName": "나주시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050200",
+              "tmEf": "20220204",
+              "regName": "나주시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050200",
+              "tmEf": "20220204",
+              "regName": "나주시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1050200",
+              "tmEf": "20220204",
+              "regName": "나주시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "담양군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1050300",
+              "tmEf": "20220204",
+              "regName": "담양군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050300",
+              "tmEf": "20220204",
+              "regName": "담양군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050300",
+              "tmEf": "20220204",
+              "regName": "담양군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1050300",
+              "tmEf": "20220204",
+              "regName": "담양군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "곡성군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1050400",
+              "tmEf": "20220204",
+              "regName": "곡성군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050400",
+              "tmEf": "20220204",
+              "regName": "곡성군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050400",
+              "tmEf": "20220204",
+              "regName": "곡성군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1050400",
+              "tmEf": "20220204",
+              "regName": "곡성군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "구례군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1050500",
+              "tmEf": "20220204",
+              "regName": "구례군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050500",
+              "tmEf": "20220204",
+              "regName": "구례군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050500",
+              "tmEf": "20220204",
+              "regName": "구례군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1050500",
+              "tmEf": "20220204",
+              "regName": "구례군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "장성군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1050600",
+              "tmEf": "20220204",
+              "regName": "장성군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050600",
+              "tmEf": "20220204",
+              "regName": "장성군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050600",
+              "tmEf": "20220204",
+              "regName": "장성군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1050600",
+              "tmEf": "20220204",
+              "regName": "장성군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "화순군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1050700",
+              "tmEf": "20220204",
+              "regName": "화순군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050700",
+              "tmEf": "20220204",
+              "regName": "화순군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050700",
+              "tmEf": "20220204",
+              "regName": "화순군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1050700",
+              "tmEf": "20220204",
+              "regName": "화순군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "고흥군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1050800",
+              "tmEf": "20220204",
+              "regName": "고흥군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050800",
+              "tmEf": "20220204",
+              "regName": "고흥군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050800",
+              "tmEf": "20220204",
+              "regName": "고흥군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1050800",
+              "tmEf": "20220204",
+              "regName": "고흥군",
+              "clsfc": "수산양식",
+              "value": "경고"
+            },
+            {
+              "regId": "L1050800",
+              "tmEf": "20220204",
+              "regName": "고흥군",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "보성군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1050900",
+              "tmEf": "20220204",
+              "regName": "보성군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050900",
+              "tmEf": "20220204",
+              "regName": "보성군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1050900",
+              "tmEf": "20220204",
+              "regName": "보성군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1050900",
+              "tmEf": "20220204",
+              "regName": "보성군",
+              "clsfc": "수산양식",
+              "value": "경고"
+            },
+            {
+              "regId": "L1050900",
+              "tmEf": "20220204",
+              "regName": "보성군",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "여수시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "광양시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1051100",
+              "tmEf": "20220204",
+              "regName": "광양시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1051100",
+              "tmEf": "20220204",
+              "regName": "광양시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1051100",
+              "tmEf": "20220204",
+              "regName": "광양시",
+              "clsfc": "시설물",
+              "value": "관심"
+            },
+            {
+              "regId": "L1051100",
+              "tmEf": "20220204",
+              "regName": "광양시",
+              "clsfc": "수산양식",
+              "value": "관심"
+            },
+            {
+              "regId": "L1051100",
+              "tmEf": "20220204",
+              "regName": "광양시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "순천시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1051200",
+              "tmEf": "20220204",
+              "regName": "순천시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1051200",
+              "tmEf": "20220204",
+              "regName": "순천시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1051200",
+              "tmEf": "20220204",
+              "regName": "순천시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1051200",
+              "tmEf": "20220204",
+              "regName": "순천시",
+              "clsfc": "수산양식",
+              "value": "관심"
+            },
+            {
+              "regId": "L1051200",
+              "tmEf": "20220204",
+              "regName": "순천시",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "장흥군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1051300",
+              "tmEf": "20220204",
+              "regName": "장흥군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1051300",
+              "tmEf": "20220204",
+              "regName": "장흥군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1051300",
+              "tmEf": "20220204",
+              "regName": "장흥군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1051300",
+              "tmEf": "20220204",
+              "regName": "장흥군",
+              "clsfc": "수산양식",
+              "value": "경고"
+            },
+            {
+              "regId": "L1051300",
+              "tmEf": "20220204",
+              "regName": "장흥군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "강진군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1051400",
+              "tmEf": "20220204",
+              "regName": "강진군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1051400",
+              "tmEf": "20220204",
+              "regName": "강진군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1051400",
+              "tmEf": "20220204",
+              "regName": "강진군",
+              "clsfc": "수산양식",
+              "value": "주의"
+            },
+            {
+              "regId": "L1051400",
+              "tmEf": "20220204",
+              "regName": "강진군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "해남군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "완도군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "영암군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1051700",
+              "tmEf": "20220204",
+              "regName": "영암군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1051700",
+              "tmEf": "20220204",
+              "regName": "영암군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1051700",
+              "tmEf": "20220204",
+              "regName": "영암군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1051700",
+              "tmEf": "20220204",
+              "regName": "영암군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "무안군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "함평군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "영광군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "목포시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "신안군(흑산면제외)": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "진도군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "흑산도.홍도": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "거문도.초도": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "고창군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "부안군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "군산시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "김제시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "완주군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1060500",
+              "tmEf": "20220204",
+              "regName": "완주군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1060500",
+              "tmEf": "20220204",
+              "regName": "완주군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1060500",
+              "tmEf": "20220204",
+              "regName": "완주군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1060500",
+              "tmEf": "20220204",
+              "regName": "완주군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "진안군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1060600",
+              "tmEf": "20220204",
+              "regName": "진안군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1060600",
+              "tmEf": "20220204",
+              "regName": "진안군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1060600",
+              "tmEf": "20220204",
+              "regName": "진안군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1060600",
+              "tmEf": "20220204",
+              "regName": "진안군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "무주군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1060700",
+              "tmEf": "20220204",
+              "regName": "무주군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1060700",
+              "tmEf": "20220204",
+              "regName": "무주군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1060700",
+              "tmEf": "20220204",
+              "regName": "무주군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1060700",
+              "tmEf": "20220204",
+              "regName": "무주군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "장수군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1060800",
+              "tmEf": "20220204",
+              "regName": "장수군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1060800",
+              "tmEf": "20220204",
+              "regName": "장수군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1060800",
+              "tmEf": "20220204",
+              "regName": "장수군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1060800",
+              "tmEf": "20220204",
+              "regName": "장수군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "임실군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1060900",
+              "tmEf": "20220204",
+              "regName": "임실군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1060900",
+              "tmEf": "20220204",
+              "regName": "임실군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1060900",
+              "tmEf": "20220204",
+              "regName": "임실군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1060900",
+              "tmEf": "20220204",
+              "regName": "임실군",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "순창군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1061000",
+              "tmEf": "20220204",
+              "regName": "순창군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1061000",
+              "tmEf": "20220204",
+              "regName": "순창군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1061000",
+              "tmEf": "20220204",
+              "regName": "순창군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1061000",
+              "tmEf": "20220204",
+              "regName": "순창군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "익산시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "정읍시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "전주시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "남원시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1061400",
+              "tmEf": "20220204",
+              "regName": "남원시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1061400",
+              "tmEf": "20220204",
+              "regName": "남원시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1061400",
+              "tmEf": "20220204",
+              "regName": "남원시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1061400",
+              "tmEf": "20220204",
+              "regName": "남원시",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "대구광역시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "구미시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "영천시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "경산시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "군위군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1070600",
+              "tmEf": "20220204",
+              "regName": "군위군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1070600",
+              "tmEf": "20220204",
+              "regName": "군위군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1070600",
+              "tmEf": "20220204",
+              "regName": "군위군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1070600",
+              "tmEf": "20220204",
+              "regName": "군위군",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "청도군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1070700",
+              "tmEf": "20220204",
+              "regName": "청도군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1070700",
+              "tmEf": "20220204",
+              "regName": "청도군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1070700",
+              "tmEf": "20220204",
+              "regName": "청도군",
+              "clsfc": "시설물",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 3
+      }
+    }
+  },
+  "고령군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1070800",
+              "tmEf": "20220204",
+              "regName": "고령군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1070800",
+              "tmEf": "20220204",
+              "regName": "고령군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1070800",
+              "tmEf": "20220204",
+              "regName": "고령군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1070800",
+              "tmEf": "20220204",
+              "regName": "고령군",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1070800",
+              "tmEf": "20220204",
+              "regName": "고령군",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "성주군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "칠곡군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1071000",
+              "tmEf": "20220204",
+              "regName": "칠곡군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1071000",
+              "tmEf": "20220204",
+              "regName": "칠곡군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1071000",
+              "tmEf": "20220204",
+              "regName": "칠곡군",
+              "clsfc": "시설물",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 3
+      }
+    }
+  },
+  "김천시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "상주시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1071200",
+              "tmEf": "20220204",
+              "regName": "상주시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1071200",
+              "tmEf": "20220204",
+              "regName": "상주시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1071200",
+              "tmEf": "20220204",
+              "regName": "상주시",
+              "clsfc": "시설물",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 3
+      }
+    }
+  },
+  "문경시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1071300",
+              "tmEf": "20220204",
+              "regName": "문경시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1071300",
+              "tmEf": "20220204",
+              "regName": "문경시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1071300",
+              "tmEf": "20220204",
+              "regName": "문경시",
+              "clsfc": "시설물",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 3
+      }
+    }
+  },
+  "예천군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1071400",
+              "tmEf": "20220204",
+              "regName": "예천군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1071400",
+              "tmEf": "20220204",
+              "regName": "예천군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1071400",
+              "tmEf": "20220204",
+              "regName": "예천군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1071400",
+              "tmEf": "20220204",
+              "regName": "예천군",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "안동시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1071500",
+              "tmEf": "20220204",
+              "regName": "안동시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1071500",
+              "tmEf": "20220204",
+              "regName": "안동시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1071500",
+              "tmEf": "20220204",
+              "regName": "안동시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1071500",
+              "tmEf": "20220204",
+              "regName": "안동시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "영주시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1071600",
+              "tmEf": "20220204",
+              "regName": "영주시",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1071600",
+              "tmEf": "20220204",
+              "regName": "영주시",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1071600",
+              "tmEf": "20220204",
+              "regName": "영주시",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1071600",
+              "tmEf": "20220204",
+              "regName": "영주시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "의성군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1071700",
+              "tmEf": "20220204",
+              "regName": "의성군",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1071700",
+              "tmEf": "20220204",
+              "regName": "의성군",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1071700",
+              "tmEf": "20220204",
+              "regName": "의성군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1071700",
+              "tmEf": "20220204",
+              "regName": "의성군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "청송군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1071800",
+              "tmEf": "20220204",
+              "regName": "청송군",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1071800",
+              "tmEf": "20220204",
+              "regName": "청송군",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1071800",
+              "tmEf": "20220204",
+              "regName": "청송군",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1071800",
+              "tmEf": "20220204",
+              "regName": "청송군",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "영양군평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1071910",
+              "tmEf": "20220204",
+              "regName": "영양군평지",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1071910",
+              "tmEf": "20220204",
+              "regName": "영양군평지",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1071910",
+              "tmEf": "20220204",
+              "regName": "영양군평지",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1071910",
+              "tmEf": "20220204",
+              "regName": "영양군평지",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "봉화군평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1072010",
+              "tmEf": "20220204",
+              "regName": "봉화군평지",
+              "clsfc": "보건",
+              "value": "주의"
+            },
+            {
+              "regId": "L1072010",
+              "tmEf": "20220204",
+              "regName": "봉화군평지",
+              "clsfc": "산업",
+              "value": "주의"
+            },
+            {
+              "regId": "L1072010",
+              "tmEf": "20220204",
+              "regName": "봉화군평지",
+              "clsfc": "시설물",
+              "value": "경고"
+            },
+            {
+              "regId": "L1072010",
+              "tmEf": "20220204",
+              "regName": "봉화군평지",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "울릉도.독도": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "영덕군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "울진군평지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1072310",
+              "tmEf": "20220204",
+              "regName": "울진군평지",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1072310",
+              "tmEf": "20220204",
+              "regName": "울진군평지",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1072310",
+              "tmEf": "20220204",
+              "regName": "울진군평지",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1072310",
+              "tmEf": "20220204",
+              "regName": "울진군평지",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "포항시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "경주시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "경북북동산지": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1075020",
+              "tmEf": "20220204",
+              "regName": "경북북동산지",
+              "clsfc": "보건",
+              "value": "경고"
+            },
+            {
+              "regId": "L1075020",
+              "tmEf": "20220204",
+              "regName": "경북북동산지",
+              "clsfc": "산업",
+              "value": "경고"
+            },
+            {
+              "regId": "L1075020",
+              "tmEf": "20220204",
+              "regName": "경북북동산지",
+              "clsfc": "시설물",
+              "value": "심각"
+            },
+            {
+              "regId": "L1075020",
+              "tmEf": "20220204",
+              "regName": "경북북동산지",
+              "clsfc": "기타",
+              "value": "경고"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "부산광역시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "울산광역시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1080300",
+              "tmEf": "20220204",
+              "regName": "울산광역시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1080300",
+              "tmEf": "20220204",
+              "regName": "울산광역시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1080300",
+              "tmEf": "20220204",
+              "regName": "울산광역시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1080300",
+              "tmEf": "20220204",
+              "regName": "울산광역시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "양산시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1080500",
+              "tmEf": "20220204",
+              "regName": "양산시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1080500",
+              "tmEf": "20220204",
+              "regName": "양산시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1080500",
+              "tmEf": "20220204",
+              "regName": "양산시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1080500",
+              "tmEf": "20220204",
+              "regName": "양산시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "창원시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1080600",
+              "tmEf": "20220204",
+              "regName": "창원시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1080600",
+              "tmEf": "20220204",
+              "regName": "창원시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1080600",
+              "tmEf": "20220204",
+              "regName": "창원시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1080600",
+              "tmEf": "20220204",
+              "regName": "창원시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "김해시": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1080900",
+              "tmEf": "20220204",
+              "regName": "김해시",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1080900",
+              "tmEf": "20220204",
+              "regName": "김해시",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1080900",
+              "tmEf": "20220204",
+              "regName": "김해시",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1080900",
+              "tmEf": "20220204",
+              "regName": "김해시",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "밀양시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "의령군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "함안군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "창녕군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "진주시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "하동군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1081500",
+              "tmEf": "20220204",
+              "regName": "하동군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1081500",
+              "tmEf": "20220204",
+              "regName": "하동군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1081500",
+              "tmEf": "20220204",
+              "regName": "하동군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1081500",
+              "tmEf": "20220204",
+              "regName": "하동군",
+              "clsfc": "수산양식",
+              "value": "주의"
+            },
+            {
+              "regId": "L1081500",
+              "tmEf": "20220204",
+              "regName": "하동군",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "산청군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "함양군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "거창군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "합천군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "통영시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "사천시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "거제시": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "고성군": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1082300",
+              "tmEf": "20220204",
+              "regName": "고성군",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1082300",
+              "tmEf": "20220204",
+              "regName": "고성군",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1082300",
+              "tmEf": "20220204",
+              "regName": "고성군",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1082300",
+              "tmEf": "20220204",
+              "regName": "고성군",
+              "clsfc": "기타",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 4
+      }
+    }
+  },
+  "남해군": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "제주도산지": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "제주도서부": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "제주도북부": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "제주도동부": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "제주도남부": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "추자도": {
+    "response": {
+      "header": {
+        "resultCode": "03",
+        "resultMsg": "NO_DATA"
+      }
+    }
+  },
+  "서울동남권": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1100100",
+              "tmEf": "20220204",
+              "regName": "서울동남권",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1100100",
+              "tmEf": "20220204",
+              "regName": "서울동남권",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1100100",
+              "tmEf": "20220204",
+              "regName": "서울동남권",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1100100",
+              "tmEf": "20220204",
+              "regName": "서울동남권",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1100100",
+              "tmEf": "20220204",
+              "regName": "서울동남권",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  },
+  "서울동북권": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1100200",
+              "tmEf": "20220204",
+              "regName": "서울동북권",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1100200",
+              "tmEf": "20220204",
+              "regName": "서울동북권",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1100200",
+              "tmEf": "20220204",
+              "regName": "서울동북권",
+              "clsfc": "시설물",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 3
+      }
+    }
+  },
+  "서울서남권": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1100300",
+              "tmEf": "20220204",
+              "regName": "서울서남권",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1100300",
+              "tmEf": "20220204",
+              "regName": "서울서남권",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1100300",
+              "tmEf": "20220204",
+              "regName": "서울서남권",
+              "clsfc": "시설물",
+              "value": "주의"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 3
+      }
+    }
+  },
+  "서울서북권": {
+    "response": {
+      "header": {
+        "resultCode": "00",
+        "resultMsg": "NORMAL_SERVICE"
+      },
+      "body": {
+        "dataType": "JSON",
+        "items": {
+          "item": [
+            {
+              "regId": "L1100400",
+              "tmEf": "20220204",
+              "regName": "서울서북권",
+              "clsfc": "보건",
+              "value": "관심"
+            },
+            {
+              "regId": "L1100400",
+              "tmEf": "20220204",
+              "regName": "서울서북권",
+              "clsfc": "산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1100400",
+              "tmEf": "20220204",
+              "regName": "서울서북권",
+              "clsfc": "시설물",
+              "value": "주의"
+            },
+            {
+              "regId": "L1100400",
+              "tmEf": "20220204",
+              "regName": "서울서북권",
+              "clsfc": "농축산업",
+              "value": "관심"
+            },
+            {
+              "regId": "L1100400",
+              "tmEf": "20220204",
+              "regName": "서울서북권",
+              "clsfc": "기타",
+              "value": "관심"
+            }
+          ]
+        },
+        "pageNo": 1,
+        "numOfRows": 30,
+        "totalCount": 5
+      }
+    }
+  }
+}

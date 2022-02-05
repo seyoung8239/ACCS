@@ -1,0 +1,975 @@
+{
+	"public": [
+		{
+			"clsfc": "보건(일반인)",
+			"value": "관심",
+			"cntrmsrCode": "1101",
+			"cntrmsrMthdShrt": "물 충분히 섭취, 격렬한 야외활동 자제",
+			"cntrmsrMthd": "온열질환 발생 가능성이 있으니 물을 충분히 마시고, 낮에는 격렬한 야외 활동 가급적 자제"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "관심",
+			"cntrmsrCode": "1102",
+			"cntrmsrMthdShrt": "가벼운 옷차림, 양산·모자·물병 지니기",
+			"cntrmsrMthd": "온열질환 발생 가능성이 있으니 외출할 때 가벼운 옷차림 하기, 양산·모자·물병 지니기"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "관심",
+			"cntrmsrCode": "1103",
+			"cntrmsrMthdShrt": "음식은 10℃이하에서 보관",
+			"cntrmsrMthd": "식중독에 걸릴 수 있으니 음식은 완전히 익혀 먹고 10℃ 이하에서 보관"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "관심",
+			"cntrmsrCode": "1104",
+			"cntrmsrMthdShrt": "음식은 다시 끓여 먹기",
+			"cntrmsrMthd": "식중독에 걸릴 수 있으니 한 번 익힌 음식은 다시 끓여 먹기"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "관심",
+			"cntrmsrCode": "1105",
+			"cntrmsrMthdShrt": "식중독 대비 음식 관리 유의",
+			"cntrmsrMthd": "식중독에 걸릴 수 있으니 손을 잘 씻고 음식을 주의 깊게 관리"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "주의",
+			"cntrmsrCode": "1201",
+			"cntrmsrMthdShrt": "격렬한 운동, 야외활동 자제",
+			"cntrmsrMthd": "온열질환에 걸리기 쉬우니 격렬한 운동이나 야외 활동 자제"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "주의",
+			"cntrmsrCode": "1202",
+			"cntrmsrMthdShrt": "수분·염분 섭취, 자주 쉬기",
+			"cntrmsrMthd": "온열질환에 걸리기 쉬우니 수분·염분을 섭취하고, 야외 활동 시 30분마다 쉬기"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "주의",
+			"cntrmsrCode": "1203",
+			"cntrmsrMthdShrt": "가벼운 옷차림, 양산·모자·물병 지니기",
+			"cntrmsrMthd": "온열질환에 걸리기 쉬우니 외출할 때 가벼운 옷차림 하기, 양산·모자·물병 지니기"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "주의",
+			"cntrmsrCode": "1204",
+			"cntrmsrMthdShrt": "조리도구를 청결하게 세척·소독하기",
+			"cntrmsrMthd": "조리 도구를 세척·소독하여 세균 오염을 방지하고 식중독에 유의"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "주의",
+			"cntrmsrCode": "1205",
+			"cntrmsrMthdShrt": "음식물 유통기한·보관 방법 확인",
+			"cntrmsrMthd": "식중독에 걸릴 수 있으니 음식물의 유통기한과 보관 방법을 확인하여 관리"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "경고",
+			"cntrmsrCode": "1301",
+			"cntrmsrMthdShrt": "낮12시~오후5시 야외활동 자제",
+			"cntrmsrMthd": "온열질환 발생 가능성이 높으니 낮 12시~오후 5시는 야외 활동을 자제하고 쉬기"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "경고",
+			"cntrmsrCode": "1302",
+			"cntrmsrMthdShrt": "수분·염분 섭취, 야외활동 자제",
+			"cntrmsrMthd": "온열질환 발생 가능성이 높으니 수분·염분을 충분히 섭취하고, 야외 활동이나 외출 자제"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "경고",
+			"cntrmsrCode": "1303",
+			"cntrmsrMthdShrt": "온열질환 증세가 보이면 119에 신고",
+			"cntrmsrMthd": "온열질환 발생 가능성이 높으니 현기증, 메스꺼움, 두통 등이 계속되면 119에 신고"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "경고",
+			"cntrmsrCode": "1304",
+			"cntrmsrMthdShrt": "식사를 가볍게 하고, 충분한 수분섭취",
+			"cntrmsrMthd": "온열질환 발생 가능성이 높으니 식사를 가볍게 하고, 물을 충분히 마시기"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "경고",
+			"cntrmsrCode": "1305",
+			"cntrmsrMthdShrt": "식중독 의심 증상 시 병원 방문",
+			"cntrmsrMthd": "식중독에 걸리기 쉬우니 의심되는 증상(혈변, 고열 등)이 나타나면 의료 기관 방문"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "심각",
+			"cntrmsrCode": "1401",
+			"cntrmsrMthdShrt": "낮12시~오후5시 야외활동하지 않기",
+			"cntrmsrMthd": "온열질환 발생 가능성이 매우 높으니 낮 12시~오후 5시는 야외 활동하지 않기"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "심각",
+			"cntrmsrCode": "1402",
+			"cntrmsrMthdShrt": "온열질환 증세가 보이면 119에 신고",
+			"cntrmsrMthd": "온열질환 발생 가능성이 매우 높으니 현기증, 메스꺼움, 두통 등이 계속되면 119에 신고"
+		},
+		{
+			"clsfc": "보건(일반인)",
+			"value": "심각",
+			"cntrmsrCode": "1403",
+			"cntrmsrMthdShrt": "열사병 증상이 나타나면 119에 신고",
+			"cntrmsrMthd": "온열질환 발생 가능성이 매우 높으니 열사병 증상(구토, 고열 등) 나타나면 119에 신고"
+		}
+	],
+	"vulnerable": [
+		{
+			"clsfc": "보건(취약인)",
+			"value": "관심",
+			"cntrmsrCode": "2101",
+			"cntrmsrMthdShrt": "취약인은 자주 쉬며 야외활동",
+			"cntrmsrMthd": "온열질환에 취약한 영유아·노약자·만성질환자는 30분 간격으로 쉬면서 야외 활동 "
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "관심",
+			"cntrmsrCode": "2102",
+			"cntrmsrMthdShrt": "취약인 야외 활동 시 관찰",
+			"cntrmsrMthd": "온열질환에 취약한 영유아·노약자·만성질환자가 야외 활동을 할 때 불편해하는지 관찰"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "관심",
+			"cntrmsrCode": "2103",
+			"cntrmsrMthdShrt": "야외활동 시간을 줄이고, 수시로 상태확인",
+			"cntrmsrMthd": "온열질환에 취약한 영유아는 야외 활동 시간을 줄이고, 수시로 상태 확인"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "주의",
+			"cntrmsrCode": "2201",
+			"cntrmsrMthdShrt": "취약인 건강 관리에 유의",
+			"cntrmsrMthd": "영유아·노약자·임산부·만성질환자는 온열질환에 걸리기 쉬우니 건강 관리에 유의"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "주의",
+			"cntrmsrCode": "2202",
+			"cntrmsrMthdShrt": "어린이·노약자를 차에 혼자 두지 않기",
+			"cntrmsrMthd": "차량 안 온도가 높아지면 질식할 수 있으니 어린이·노약자를 혼자 차에 두지 않기"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "주의",
+			"cntrmsrCode": "2203",
+			"cntrmsrMthdShrt": "독거노인 등 안부 자주 확인",
+			"cntrmsrMthd": "독거노인, 신체가 약한 사람 등은 온열질환에 걸리기 쉬우니 안부전화 등으로 상태 점검"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "주의",
+			"cntrmsrCode": "2204",
+			"cntrmsrMthdShrt": "야외활동 시 충분히 쉬기",
+			"cntrmsrMthd": "온열질환에 걸리기 쉬우니 무더위쉼터와 같은 더위를 피할 수 있는 곳에서 쉬기"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "경고",
+			"cntrmsrCode": "2301",
+			"cntrmsrMthdShrt": "냉방장치 틀기",
+			"cntrmsrMthd": "온열질환 발생 가능성이 높으니 냉방장치를 틀거나, 더위를 피할 수 있는 곳에서 쉬기"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "경고",
+			"cntrmsrCode": "2302",
+			"cntrmsrMthdShrt": "독거노인 등 안부 자주 확인",
+			"cntrmsrMthd": "독거노인 등은 온열질환 발생 가능성이 매우 높으니 안부전화 등 상태 점검"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "경고",
+			"cntrmsrCode": "2303",
+			"cntrmsrMthdShrt": "외출 자제, 휴식 취하기",
+			"cntrmsrMthd": "영유아·노약자·만성질환자는 온열질환 발생 가능성이 높으니 외출을 자제하고 휴식 취하기 "
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "경고",
+			"cntrmsrCode": "2304",
+			"cntrmsrMthdShrt": "취약계층 무더위 쉼터 이동 지원",
+			"cntrmsrMthd": "온열질환 발생 가능성이 높으니 지자체는 취약계층을 무더위쉼터로 이동 지원"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "경고",
+			"cntrmsrCode": "2305",
+			"cntrmsrMthdShrt": "온열질환 증세가 보이면 도움 요청",
+			"cntrmsrMthd": "수분과 염분을 충분히 섭취하고, 현기증, 메스꺼움 등을 느끼면 주변에 도움 요청"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "경고",
+			"cntrmsrCode": "2306",
+			"cntrmsrMthdShrt": "열사병 증상이 나타나면 119에 신고",
+			"cntrmsrMthd": "온열질환 발생 가능성이 높으니 열사병 증상(구토, 고열 등)이 나타나면 119에 바로 신고"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "심각",
+			"cntrmsrCode": "2401",
+			"cntrmsrMthdShrt": "독거노인 등 안부 자주 확인",
+			"cntrmsrMthd": "독거노인 등은 온열질환 발생 가능성이 매우 높으니 안부전화 등 수시로 상태 점검"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "심각",
+			"cntrmsrCode": "2402",
+			"cntrmsrMthdShrt": "취약계층 무더위 쉼터 이동 지원",
+			"cntrmsrMthd": "온열질환 발생 가능성이 매우 높으니 지자체는 취약계층을 무더위쉼터로 이동 지원"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "심각",
+			"cntrmsrCode": "2403",
+			"cntrmsrMthdShrt": "외출 자제하고, 시원한 곳에서 쉬기",
+			"cntrmsrMthd": "온열질환 발생 가능성이 매우 높으니 외출을 자제하고, 실내 또는 시원한 곳에서 쉬기"
+		},
+		{
+			"clsfc": "보건(취약인)",
+			"value": "심각",
+			"cntrmsrCode": "2404",
+			"cntrmsrMthdShrt": "열사병 증상이 나타나면 119에 신고",
+			"cntrmsrMthd": "온열질환 발생 가능성이 매우 높으니 열사병 증상(구토, 고열 등) 나타나면 119에 신고"
+		}
+	],
+	"industry": [
+		{
+			"clsfc": "산업",
+			"value": "관심",
+			"cntrmsrCode": "3101",
+			"cntrmsrMthdShrt": "사업장 청결 관리 유의",
+			"cntrmsrMthd": "사업장의 청결 관리에 유의하여 식중독, 장티푸스 등 질병 예방"
+		},
+		{
+			"clsfc": "산업",
+			"value": "관심",
+			"cntrmsrCode": "3102",
+			"cntrmsrMthdShrt": "깨끗한 물 마시기, 휴식 공간 준비",
+			"cntrmsrMthd": "시원하고 깨끗한 물을 마련하여 충분히 물을 마실 수 있게 하고 쉴 수 있는 그늘 준비"
+		},
+		{
+			"clsfc": "산업",
+			"value": "주의",
+			"cntrmsrCode": "3201",
+			"cntrmsrMthdShrt": "깨끗한 물, 휴식 공간 준비",
+			"cntrmsrMthd": "시원하고 깨끗한 물과 쉴 수 있는 그늘 준비(한 시간마다 10분 휴식)"
+		},
+		{
+			"clsfc": "산업",
+			"value": "주의",
+			"cntrmsrCode": "3202",
+			"cntrmsrMthdShrt": "오후 2시~5시 옥외작업 자제",
+			"cntrmsrMthd": "오후 2시~5시는 옥외작업을 줄이거나 작업 시간대 조정 등으로 옥외작업 자제"
+		},
+		{
+			"clsfc": "산업",
+			"value": "주의",
+			"cntrmsrCode": "3203",
+			"cntrmsrMthdShrt": "보랭장구 사용 권장",
+			"cntrmsrMthd": "옥외에서 작업할 때는 아이스 조끼, 아이스 팩 등 보랭 장구 사용을 권장 "
+		},
+		{
+			"clsfc": "산업",
+			"value": "주의",
+			"cntrmsrCode": "3204",
+			"cntrmsrMthdShrt": "온열질환 취약인은 휴식시간 추가배정",
+			"cntrmsrMthd": "열사병 등의 온열질환에 취약한 사람에게는 휴식시간 추가 배정"
+		},
+		{
+			"clsfc": "산업",
+			"value": "주의",
+			"cntrmsrCode": "3205",
+			"cntrmsrMthdShrt": "더워도 개인 보호 장구 필수 착용",
+			"cntrmsrMthd": "더워도 안전모·안전대 등 개인 보호 장구 착용에 소홀하지 않도록 유의"
+		},
+		{
+			"clsfc": "산업",
+			"value": "주의",
+			"cntrmsrCode": "3206",
+			"cntrmsrMthdShrt": "수면 부족으로 인한 안전사고에 유의",
+			"cntrmsrMthd": "수면 부족 등으로 집중력이 저하되어 생기는 떨어짐·넘어짐 등 안전사고에 유의"
+		},
+		{
+			"clsfc": "산업",
+			"value": "주의",
+			"cntrmsrCode": "3207",
+			"cntrmsrMthdShrt": "서로 짝 지어 증상 확인 및 필요 조치",
+			"cntrmsrMthd": "작업자들끼리 짝 지어 온열질환 증상 나타나는지 확인하고 휴식, 신고 등 필요한 조치 하기"
+		},
+		{
+			"clsfc": "산업",
+			"value": "경고",
+			"cntrmsrCode": "3301",
+			"cntrmsrMthdShrt": "오후 2시~5시 옥외작업 중지",
+			"cntrmsrMthd": "오후 2시~5시는 불가피한 경우 제외하고 옥외작업 중지, 작업 시에도 충분한 휴식 부여"
+		},
+		{
+			"clsfc": "산업",
+			"value": "경고",
+			"cntrmsrCode": "3302",
+			"cntrmsrMthdShrt": "보랭장구 사용 권장",
+			"cntrmsrMthd": "옥외에서 작업할 때는 아이스 조끼, 아이스 팩 등 보랭 장구 사용을 권장 "
+		},
+		{
+			"clsfc": "산업",
+			"value": "경고",
+			"cntrmsrCode": "3303",
+			"cntrmsrMthdShrt": "온열질환 취약인은 옥외작업 제한",
+			"cntrmsrMthd": "열사병 등 온열질환에 취약한 사람에게는 옥외작업을 제한함"
+		},
+		{
+			"clsfc": "산업",
+			"value": "경고",
+			"cntrmsrCode": "3304",
+			"cntrmsrMthdShrt": "더워도 개인 보호 장구 필수 착용",
+			"cntrmsrMthd": "더워도 안전모·안전대 등 개인 보호 장구 착용에 소홀하지 않도록 유의"
+		},
+		{
+			"clsfc": "산업",
+			"value": "경고",
+			"cntrmsrCode": "3305",
+			"cntrmsrMthdShrt": "수면 부족으로 인한 안전사고에 유의",
+			"cntrmsrMthd": "수면 부족 등으로 집중력이 저하되어 생기는 떨어짐·넘어짐 등 안전사고에 유의"
+		},
+		{
+			"clsfc": "산업",
+			"value": "경고",
+			"cntrmsrCode": "3306",
+			"cntrmsrMthdShrt": "서로 짝 지어 증상 확인 및 필요 조치",
+			"cntrmsrMthd": "작업자들끼리 짝 지어 온열질환 증상 나타나는지 확인하고 휴식, 신고 등 필요한 조치 하기"
+		},
+		{
+			"clsfc": "산업",
+			"value": "심각",
+			"cntrmsrCode": "3401",
+			"cntrmsrMthdShrt": "깨끗한 물, 휴식 공간 준비",
+			"cntrmsrMthd": "시원하고 깨끗한 물과 쉴 수 있는 그늘 준비(한 시간마다 15분 이상 휴식)"
+		},
+		{
+			"clsfc": "산업",
+			"value": "심각",
+			"cntrmsrCode": "3402",
+			"cntrmsrMthdShrt": "옥외 작업 자제",
+			"cntrmsrMthd": "온열질환이 발생할 가능성이 매우 높으니 급하지 않은 옥외 작업은 자제"
+		},
+		{
+			"clsfc": "산업",
+			"value": "심각",
+			"cntrmsrCode": "3403",
+			"cntrmsrMthdShrt": "오후 2시~5시 옥외작업 중지",
+			"cntrmsrMthd": "오후 2시~5시는 재난/안전 긴급조치 외 옥외작업 중지, 작업 시에도 충분한 휴식 부여"
+		},
+		{
+			"clsfc": "산업",
+			"value": "심각",
+			"cntrmsrCode": "3404",
+			"cntrmsrMthdShrt": "보랭장구 사용 권장",
+			"cntrmsrMthd": "옥외에서 작업할 때는 아이스 조끼, 아이스 팩 등 보랭 장구 사용을 권장 "
+		},
+		{
+			"clsfc": "산업",
+			"value": "심각",
+			"cntrmsrCode": "3405",
+			"cntrmsrMthdShrt": "온열질환 취약인은 옥외작업 제한",
+			"cntrmsrMthd": "열사병 등의 온열질환에 취약한 사람에게는 옥외작업을 제한함"
+		},
+		{
+			"clsfc": "산업",
+			"value": "심각",
+			"cntrmsrCode": "3406",
+			"cntrmsrMthdShrt": "더워도 개인 보호 장구 필수 착용",
+			"cntrmsrMthd": "더워도 안전모·안전대 등 개인 보호 장구 착용에 소홀하지 않도록 유의"
+		},
+		{
+			"clsfc": "산업",
+			"value": "심각",
+			"cntrmsrCode": "3407",
+			"cntrmsrMthdShrt": "수면 부족으로 인한 안전사고에 유의",
+			"cntrmsrMthd": "수면 부족 등으로 집중력이 저하되어 생기는 떨어짐·넘어짐 등 안전사고에 유의"
+		}
+	],
+	"livestock": [
+		{
+			"clsfc": "축산업",
+			"value": "관심",
+			"cntrmsrCode": "4101",
+			"cntrmsrMthdShrt": "축사 시설 정비 및 적정 사료·깨끗한 물 주기",
+			"cntrmsrMthd": "축사 주변의 풀을 제거하고 물 저장시설 청소하기. 성장단계별 적정 사료 및 깨끗한 물 주기"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "관심",
+			"cntrmsrCode": "4102",
+			"cntrmsrMthdShrt": "송풍장치·분무장치 등 시설물 점검",
+			"cntrmsrMthd": "가축(특히 가금류) 폐사에 대비하여 송풍장치·물 분무장치 등 시설물 점검"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "관심",
+			"cntrmsrCode": "4103",
+			"cntrmsrMthdShrt": "그늘막, 단열재 등 설치·점검",
+			"cntrmsrMthd": "가축이 열 스트레스를 받지 않도록 단열재·차광막·그늘막 등 설치 및 점검"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "관심",
+			"cntrmsrCode": "4104",
+			"cntrmsrMthdShrt": "적정 송풍장치 가동",
+			"cntrmsrMthd": "적정 송풍장치를 가동하여 축사 환기하기"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "관심",
+			"cntrmsrCode": "4105",
+			"cntrmsrMthdShrt": "발전기, 전기시설 등 시설물 사전 점검",
+			"cntrmsrMthd": "정전대비 전기시설 사전 점검 및 비상발전기 미리 준비 "
+		},
+		{
+			"clsfc": "축산업",
+			"value": "주의",
+			"cntrmsrCode": "4201",
+			"cntrmsrMthdShrt": "송풍장치, 분무장치 가동",
+			"cntrmsrMthd": "가축(특히 가금류)이 열 스트레스를 받기 쉬우니 송풍장치를 가동하고, 축사 내부 분무장치 가동"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "주의",
+			"cntrmsrCode": "4202",
+			"cntrmsrMthdShrt": "그늘막 등 설치하고, 축사 온도 낮추기",
+			"cntrmsrMthd": "가축이 열 스트레스를 받기 쉬우니 단열재·차광막·그늘막 등 설치, 축사 온도 낮추기"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "주의",
+			"cntrmsrCode": "4203",
+			"cntrmsrMthdShrt": "축사 청소·방역 실시",
+			"cntrmsrMthd": "가축이 열 스트레스를 많이 받으면 면역력이 떨어지므로 축사 청소·방역 실시"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "주의",
+			"cntrmsrCode": "4204",
+			"cntrmsrMthdShrt": "닭에게 칼슘·깨끗한 물 주기",
+			"cntrmsrMthd": "닭의 알 낳는 비율이 줄어들 수 있으니 닭에게 칼슘과 깨끗한 물 보충"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "주의",
+			"cntrmsrCode": "4205",
+			"cntrmsrMthdShrt": "지붕에 물 뿌리기",
+			"cntrmsrMthd": "가축이 열 스트레스를 받기 쉬우니 축사 온도가 높아지지 않도록 지붕에 물 뿌리기"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "경고",
+			"cntrmsrCode": "4301",
+			"cntrmsrMthdShrt": "송풍장치·분무장치 가동",
+			"cntrmsrMthd": "가축(특히 가금류) 폐사 가능성이 있으니 강제 송풍장치 및 축사 내부 분무장치 가동"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "경고",
+			"cntrmsrCode": "4302",
+			"cntrmsrMthdShrt": "축종별 적정 온도 유지·방역 실시",
+			"cntrmsrMthd": "축사 내부 온도가 올라가면 집단 폐사(특히 가금류) 가능성이 있으니 축종별 적정 온도 유지하고 방역 실시"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "경고",
+			"cntrmsrCode": "4303",
+			"cntrmsrMthdShrt": "축사 온도 조절, 방역 실시",
+			"cntrmsrMthd": "집단 폐사 가능성이 있으니 축사 온도 조절하고 방역 실시(가금류·돼지 특히 취약)"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "경고",
+			"cntrmsrCode": "4304",
+			"cntrmsrMthdShrt": "젖소에게 시원한 물, 고에너지 사료 보충",
+			"cntrmsrMthd": "젖소의 우유 생산량 감소 가능성이 있으니 사료 급여 횟수 증가, 시원한 물과 아미노산·비타민 등 보충 "
+		},
+		{
+			"clsfc": "축산업",
+			"value": "경고",
+			"cntrmsrCode": "4305",
+			"cntrmsrMthdShrt": "사육 밀도 낮추고, 시원한 물 자주 주기",
+			"cntrmsrMthd": "집단 폐사 가능성이 있으니 가축 사육 밀도를 낮추고, 시원하고 깨끗한 물 자주 주기"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "심각",
+			"cntrmsrCode": "4401",
+			"cntrmsrMthdShrt": "사육 밀도 낮추고, 송풍장치 가동",
+			"cntrmsrMthd": "집단 폐사 가능성이 매우 높으니 사육 밀도를 낮추고 그늘막 설치, 강제 송풍장치 가동"
+		},
+		{
+			"clsfc": "축산업",
+			"value": "심각",
+			"cntrmsrCode": "4402",
+			"cntrmsrMthdShrt": "전염성 질병에 대비하여 청소·방역 실시",
+			"cntrmsrMthd": "집단 폐사 가능성이 매우 높으니 가축 전염성 질병에 대비, 축사 청소·방역 실시"
+		}
+	],
+	"agriculture": [
+		{
+			"clsfc": "농업",
+			"value": "관심",
+			"cntrmsrCode": "5101",
+			"cntrmsrMthdShrt": "사전 병해충 예찰 및 방제 실시",
+			"cntrmsrMthd": "(병해충) 농작물 피해에 대비하여 병해충을 살펴 예방하거나 없애기"
+		},
+		{
+			"clsfc": "농업",
+			"value": "관심",
+			"cntrmsrCode": "5102",
+			"cntrmsrMthdShrt": "농수로, 논두렁 정비",
+			"cntrmsrMthd": "(벼) 농수로, 논두렁을 미리 정비하여 물이 새는 곳이 없도록 조치"
+		},
+		{
+			"clsfc": "농업",
+			"value": "관심",
+			"cntrmsrCode": "5103",
+			"cntrmsrMthdShrt": "관수 시설 정비",
+			"cntrmsrMthd": "(과수) 농작물 피해에 대비하여 관수 시설 정비하기"
+		},
+		{
+			"clsfc": "농업",
+			"value": "관심",
+			"cntrmsrCode": "5104",
+			"cntrmsrMthdShrt": "통기성 좋은 작업복 착용, 수분 섭취",
+			"cntrmsrMthd": "(농작업) 온열질환에 대비하여 통기성이 좋은 작업복 착용, 수분 섭취, 그늘에서 쉬기"
+		},
+		{
+			"clsfc": "농업",
+			"value": "주의",
+			"cntrmsrCode": "5201",
+			"cntrmsrMthdShrt": "주기적으로 물 주기",
+			"cntrmsrMthd": "(밭작물) 토양이 마르지 않도록 주기적으로 물을 주어 칼슘 부족 등 생리 장애 예방"
+		},
+		{
+			"clsfc": "농업",
+			"value": "주의",
+			"cntrmsrCode": "5202",
+			"cntrmsrMthdShrt": "검은 비닐·차광막으로 수분 증발·온도 상승 억제",
+			"cntrmsrMthd": "(밭작물) 검은 비닐·차광막 등으로 토양 표면을 덮어 토양 수분 증발·온도 상승 억제"
+		},
+		{
+			"clsfc": "농업",
+			"value": "주의",
+			"cntrmsrCode": "5203",
+			"cntrmsrMthdShrt": "토양 수분 적절히 유지",
+			"cntrmsrMthd": "(과수) 주기적으로 물을 주어 토양 수분 적절히 유지, 관수 시설 없는 곳은 대책 세우기"
+		},
+		{
+			"clsfc": "농업",
+			"value": "주의",
+			"cntrmsrCode": "5204",
+			"cntrmsrMthdShrt": "직사광선에 노출되지 않도록 조치",
+			"cntrmsrMthd": "(과수) 햇볕데임 발생 가능성이 높으니 직사광선에 노출되지 않도록 가지유인 등 조치"
+		},
+		{
+			"clsfc": "농업",
+			"value": "주의",
+			"cntrmsrCode": "5205",
+			"cntrmsrMthdShrt": "사전 병해충 예찰 및 방제 실시",
+			"cntrmsrMthd": "(병해충) 병해충 발생 가능성이 있으니 농작물 미리 살피고, 방제 실시 "
+		},
+		{
+			"clsfc": "농업",
+			"value": "주의",
+			"cntrmsrCode": "5206",
+			"cntrmsrMthdShrt": "수분 섭취, 장시간 농작업·나홀로 작업 자제",
+			"cntrmsrMthd": "(농작업) 온열질환에 걸리기 쉬우니 수시로 수분 섭취, 장시간 농작업·나홀로 작업 자제"
+		},
+		{
+			"clsfc": "농업",
+			"value": "경고",
+			"cntrmsrCode": "5301",
+			"cntrmsrMthdShrt": "논에 물을 깊게 대기",
+			"cntrmsrMthd": "(벼) 물을 깊게 대어 식물 온도 상승 억제, 규산·칼륨질 거름 늘리기"
+		},
+		{
+			"clsfc": "농업",
+			"value": "경고",
+			"cntrmsrCode": "5302",
+			"cntrmsrMthdShrt": "물츨 충분히 주고, 직사광선 차단",
+			"cntrmsrMthd": "(밭작물) 오전에 물을 충분히 주기, 작물은 차광막 등으로 덮어 직사광선 차단  "
+		},
+		{
+			"clsfc": "농업",
+			"value": "경고",
+			"cntrmsrCode": "5303",
+			"cntrmsrMthdShrt": "미세 살수장치 등으로 토양 수분 증발·온도 상승 억제",
+			"cntrmsrMthd": "(과수) 미세 살수장치, 스프링클러로 주기적으로 물 주어 토양 수분 증발·온도 상승 억제"
+		},
+		{
+			"clsfc": "농업",
+			"value": "경고",
+			"cntrmsrCode": "5304",
+			"cntrmsrMthdShrt": "방상 선풍기 틀기",
+			"cntrmsrMthd": "(과수) 시설 과수는 방상 선풍기를 틀어 뜨거운 공기 내보내기"
+		},
+		{
+			"clsfc": "농업",
+			"value": "경고",
+			"cntrmsrCode": "5305",
+			"cntrmsrMthdShrt": "직사광선에 과수가 노출되지 않도록 조치",
+			"cntrmsrMthd": "(과수) 햇볕데임 발생 가능성이 매우 높으니 직사광선에 과수가 노출되지 않도록 조치"
+		},
+		{
+			"clsfc": "농업",
+			"value": "경고",
+			"cntrmsrCode": "5306",
+			"cntrmsrMthdShrt": "사전 병해충 예찰 및 방제 실시",
+			"cntrmsrMthd": "(병해충) 병해충 발생 가능성이 높으니 농작물 미리 살피기, 방제 강화"
+		},
+		{
+			"clsfc": "농업",
+			"value": "경고",
+			"cntrmsrCode": "5307",
+			"cntrmsrMthdShrt": "아침·저녁만 일하고, 충분한 휴식 취하기",
+			"cntrmsrMthd": "(농작업) 온열질환에 걸리기 쉬우니 아침·저녁에만 일하고, 충분한 휴식 취하기"
+		},
+		{
+			"clsfc": "농업",
+			"value": "심각",
+			"cntrmsrCode": "5401",
+			"cntrmsrMthdShrt": "논에 충분한 물 대기",
+			"cntrmsrMthd": "(벼) 논물 걸러대기를 하여 물 온도를 낮추고 뿌리에 활력 주기"
+		},
+		{
+			"clsfc": "농업",
+			"value": "심각",
+			"cntrmsrCode": "5402",
+			"cntrmsrMthdShrt": "요소비료 등 잎에 뿌리기",
+			"cntrmsrMthd": "(밭작물) 작물이 잘 자라지 않으면 제4종 복합비료 또는 요소비료를 물에 섞어 잎에 뿌리기"
+		},
+		{
+			"clsfc": "농업",
+			"value": "심각",
+			"cntrmsrCode": "5403",
+			"cntrmsrMthdShrt": "병해충 대비하여 조치",
+			"cntrmsrMthd": "(과수) 강한 햇볕에 피해가 발생한 열매는 제거하고, 병해충이 더 번지지 않게 조치"
+		},
+		{
+			"clsfc": "농업",
+			"value": "심각",
+			"cntrmsrCode": "5404",
+			"cntrmsrMthdShrt": "한낮에 모든 작업 멈추고 충분히 쉬기",
+			"cntrmsrMthd": "(농작업) 온열질환에 걸릴 가능성이 매우 높으니 한낮에는 모든 작업을 멈추고 충분히 쉬기"
+		}
+	],
+	"aquaculture": [
+		{
+			"clsfc": "수산양식",
+			"value": "관심",
+			"cntrmsrCode": "6101",
+			"cntrmsrMthdShrt": "산소 공급기 등 시설 점검 및 보강",
+			"cntrmsrMthd": "양식 생물 고수온에 대비하여 산소 공급기·액화 산소, 냉각 시설 점검·보강"
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "관심",
+			"cntrmsrCode": "6102",
+			"cntrmsrMthdShrt": "어류 질병 미리 방지하고 치료하기",
+			"cntrmsrMthd": "양식 생물 고수온에 대비하여 어류 질병을 미리 방지하고 치료하기"
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "관심",
+			"cntrmsrCode": "6103",
+			"cntrmsrMthdShrt": "차광막 설치 준비, 사육 어망 정비",
+			"cntrmsrMthd": "양식 생물 고수온에 대비하여 차광막 설치 준비, 사육 어망 정비"
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "관심",
+			"cntrmsrCode": "6104",
+			"cntrmsrMthdShrt": "사전 출하 검토 및 사육 밀도 조절",
+			"cntrmsrMthd": "양식 생물 고수온에 대비하여 사전 출하를 검토하고 미리 분산하여 사육 밀도 조절"
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "주의",
+			"cntrmsrCode": "6201",
+			"cntrmsrMthdShrt": "선별·계측 작업 줄이기",
+			"cntrmsrMthd": "양식 생물에게 스트레스를 줄 수 있는 작업(선별, 계측) 줄이기"
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "주의",
+			"cntrmsrCode": "6202",
+			"cntrmsrMthdShrt": "양식 생물 동태 파악·점검",
+			"cntrmsrMthd": "양식 생물 동태를 파악·점검하여 적극적으로 대응·조치"
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "주의",
+			"cntrmsrCode": "6203",
+			"cntrmsrMthdShrt": "사료 공급 조절 및 저층 해수 공급 장치 가동",
+			"cntrmsrMthd": "양식 생물 폐사 가능성이 있으니 사료 공급량 감소·중단, 저층 해수 공급장치 가동"
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "주의",
+			"cntrmsrCode": "6204",
+			"cntrmsrMthdShrt": "산소 공급기 등 점검 및 가동",
+			"cntrmsrMthd": "수온상승에 따른 산소결핍 예방을 위해 액화 산소·산소 공급기, 발전기 점검 및 가동"
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "주의",
+			"cntrmsrCode": "6205",
+			"cntrmsrMthdShrt": "차광막 설치하여 수온 상승 차단",
+			"cntrmsrMthd": "차광막을 설치하여 직사광선에 의한 수온상승 차단과 양식생물 그늘터 제공"
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "경고",
+			"cntrmsrCode": "6301",
+			"cntrmsrMthdShrt": "폐사 발생 징후가 있으면 신고하기",
+			"cntrmsrMthd": "질병 징후나 폐사 발생 징후가 있으면 관계 기관에 신고, 전문가 처방에 따라 치료·관리"
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "경고",
+			"cntrmsrCode": "6302",
+			"cntrmsrMthdShrt": "산소 공급장치 가동, 스트레스 유발 작업 자제",
+			"cntrmsrMthd": "수온상승에 따른 산소결핍 예방을 위해 산소공급장치 가동, 스트레스 유발 작업 자제 "
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "경고",
+			"cntrmsrCode": "6303",
+			"cntrmsrMthdShrt": "어류 상태 확인, 사료 공급 조절",
+			"cntrmsrMthd": "양식 생물 폐사 가능성이 높으니 어류의 상태를 확인하면서 사료 공급을 줄이거나 중단"
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "경고",
+			"cntrmsrCode": "6304",
+			"cntrmsrMthdShrt": "차광막 설치하여 수온 상승 차단",
+			"cntrmsrMthd": "차광막을 설치하여 직사광선에 의한 수온상승 차단과 양식생물 그늘터 제공"
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "심각",
+			"cntrmsrCode": "6401",
+			"cntrmsrMthdShrt": "양식생물 폐사 시 신고하기",
+			"cntrmsrMthd": "폐사하면 관계 기관에 바로 신고, 신속하게 폐사체를 처리하여 2차 오염 최소화"
+		},
+		{
+			"clsfc": "수산양식",
+			"value": "심각",
+			"cntrmsrCode": "6402",
+			"cntrmsrMthdShrt": "수온 조절하는 모든 조치 취하기",
+			"cntrmsrMthd": "집단 폐사 가능성이 높으니 수온을 조절하는 모든 조치를 하고 사료 공급 중단"
+		}
+	],
+	"etc": [
+		{
+			"clsfc": "기타",
+			"value": "관심",
+			"cntrmsrCode": "7101",
+			"cntrmsrMthdShrt": "누전 차단기 미리 점검",
+			"cntrmsrMthd": "(정전) 정전에 대비하여 누전 차단기를 미리 점검"
+		},
+		{
+			"clsfc": "기타",
+			"value": "관심",
+			"cntrmsrCode": "7102",
+			"cntrmsrMthdShrt": "노후한 변압기 미리 점검",
+			"cntrmsrMthd": "(정전) 전력 사용이 증가하면 노후한 변압기는 사고 가능성이 있으니 미리 점검"
+		},
+		{
+			"clsfc": "기타",
+			"value": "관심",
+			"cntrmsrCode": "7103",
+			"cntrmsrMthdShrt": "에어컨 실외기 미리 점검",
+			"cntrmsrMthd": "(화재) 에어컨 실외기 화재 예방을 위해 연결선 확인, 주변 먼지 제거 등 미리 점검"
+		},
+		{
+			"clsfc": "기타",
+			"value": "관심",
+			"cntrmsrCode": "7104",
+			"cntrmsrMthdShrt": "타이어 공기압 점검",
+			"cntrmsrMthd": "(교통) 도로가 뜨거워지면 타이어에 축적된 열로 타이어 파손 위험이 있으니 공기압 점검"
+		},
+		{
+			"clsfc": "기타",
+			"value": "관심",
+			"cntrmsrCode": "7105",
+			"cntrmsrMthdShrt": "타이어 수시 점검 및 교체",
+			"cntrmsrMthd": "(교통) 타이어 파손에 대비하여 공기압 등 상태를 수시로 점검, 마모된 타이어는 교체"
+		},
+		{
+			"clsfc": "기타",
+			"value": "관심",
+			"cntrmsrCode": "7106",
+			"cntrmsrMthdShrt": "엔진과열 대비하여 차량 점검",
+			"cntrmsrMthd": "(교통) 차량 엔진이 과열될 수 있으니 냉각수, 오일 등 연료·점화장치 점검"
+		},
+		{
+			"clsfc": "기타",
+			"value": "주의",
+			"cntrmsrCode": "7201",
+			"cntrmsrMthdShrt": "정전대비 전력 사용량 관리",
+			"cntrmsrMthd": "(정전) 오래된 아파트는 노후한 변압기 때문에 정전될 수 있으니 전력 사용량 관리"
+		},
+		{
+			"clsfc": "기타",
+			"value": "주의",
+			"cntrmsrCode": "7202",
+			"cntrmsrMthdShrt": "에어컨 실외기 미리 점검",
+			"cntrmsrMthd": "(화재) 에어컨 실외기 화재 예방을 위해 연결선 확인, 주변 먼지 제거 등 미리 점검"
+		},
+		{
+			"clsfc": "기타",
+			"value": "주의",
+			"cntrmsrCode": "7203",
+			"cntrmsrMthdShrt": "차량에 인화성 물질 보관하지 않기",
+			"cntrmsrMthd": "(교통·화재) 차량 안에 폭발 위험이 있는 가스라이터, 휴대폰 보조배터리 등을 두지 않기"
+		},
+		{
+			"clsfc": "기타",
+			"value": "주의",
+			"cntrmsrCode": "7204",
+			"cntrmsrMthdShrt": "장시간 연속 주행 자제",
+			"cntrmsrMthd": "(교통) 엔진 과열을 방지하려면 장시간 연속 주행 자제"
+		},
+		{
+			"clsfc": "기타",
+			"value": "주의",
+			"cntrmsrCode": "7205",
+			"cntrmsrMthdShrt": "수면 부족 시 졸음쉼터 이용",
+			"cntrmsrMthd": "(교통) 수면 부족, 집중력 저하 등으로 교통사고 발생 가능성이 있으니 졸음쉼터 이용"
+		},
+		{
+			"clsfc": "기타",
+			"value": "주의",
+			"cntrmsrCode": "7206",
+			"cntrmsrMthdShrt": "살수차 운행으로 도로 표면 온도 낮추기",
+			"cntrmsrMthd": "(교통) 살수차 운행으로 도로 표면 온도 낮추기 권장"
+		},
+		{
+			"clsfc": "기타",
+			"value": "경고",
+			"cntrmsrCode": "7301",
+			"cntrmsrMthdShrt": "전력 사용량 관리 및 정전 대비",
+			"cntrmsrMthd": "(정전) 전력 사용이 늘어나면서 발생할 수 있는 정전에 대비"
+		},
+		{
+			"clsfc": "기타",
+			"value": "경고",
+			"cntrmsrCode": "7302",
+			"cntrmsrMthdShrt": "정전 대비, 전력 사용량 관리",
+			"cntrmsrMthd": "(정전) 오래된 아파트는 노후한 변압기 때문에 정전될 수 있으니 전력 사용량 관리"
+		},
+		{
+			"clsfc": "기타",
+			"value": "경고",
+			"cntrmsrCode": "7303",
+			"cntrmsrMthdShrt": "에어컨 실외기 미리 점검",
+			"cntrmsrMthd": "(화재) 에어컨 실외기 화재 예방을 위해 연결선 확인, 주변 먼지 제거"
+		},
+		{
+			"clsfc": "기타",
+			"value": "경고",
+			"cntrmsrCode": "7304",
+			"cntrmsrMthdShrt": "급정거 자제",
+			"cntrmsrMthd": "(교통) 도로가 뜨거워지면 타이어에 축적된 열로 타이어 파손 위험이 있으니 급정거 자제"
+		},
+		{
+			"clsfc": "기타",
+			"value": "경고",
+			"cntrmsrCode": "7305",
+			"cntrmsrMthdShrt": "수면 부족 시 졸음쉼터 이용",
+			"cntrmsrMthd": "(교통) 수면 부족, 집중력 저하 등으로 교통사고 발생 가능성이 있으니 졸음쉼터 이용"
+		},
+		{
+			"clsfc": "기타",
+			"value": "경고",
+			"cntrmsrCode": "7306",
+			"cntrmsrMthdShrt": "살수차 운행으로 도로 표면 온도 낮추기",
+			"cntrmsrMthd": "(교통) 살수차 운행으로 도로 표면 온도 낮추기 권장"
+		},
+		{
+			"clsfc": "기타",
+			"value": "경고",
+			"cntrmsrCode": "7307",
+			"cntrmsrMthdShrt": "교통사고, 연착, 지연에 대비",
+			"cntrmsrMthd": "(교통) 도로가 균열·파손되어 나타날 수 있는 교통사고·연착·지연에 대비"
+		},
+		{
+			"clsfc": "기타",
+			"value": "경고",
+			"cntrmsrCode": "7308",
+			"cntrmsrMthdShrt": "냉각수 등 차량 점검",
+			"cntrmsrMthd": "(교통·화재) 차량 주행 중 엔진 과열로 불이 날 수 있으니 냉각수 점검 등 조치 취하기"
+		},
+		{
+			"clsfc": "기타",
+			"value": "경고",
+			"cntrmsrCode": "7309",
+			"cntrmsrMthdShrt": "실내주차장 이용, 차단막 활용",
+			"cntrmsrMthd": "(교통) 실내주차장을 이용하거나 차단막 등을 활용하여 차량 내부 온도 낮추기"
+		},
+		{
+			"clsfc": "기타",
+			"value": "심각",
+			"cntrmsrCode": "7401",
+			"cntrmsrMthdShrt": "의료시설, 사업장은 정전에 미리",
+			"cntrmsrMthd": "(정전) 정전으로 의료 또는 영업에 차질이 없도록 대비"
+		},
+		{
+			"clsfc": "기타",
+			"value": "심각",
+			"cntrmsrCode": "7402",
+			"cntrmsrMthdShrt": "양식장 등 예비 전원 확보",
+			"cntrmsrMthd": "(정전) 양식장·수족관 등은 미리 예비 전원을 확보하여 전력 사용량 증가에 따른 정전 대비"
+		},
+		{
+			"clsfc": "기타",
+			"value": "심각",
+			"cntrmsrCode": "7403",
+			"cntrmsrMthdShrt": "차량에 인화성 물질 보관하지 않기",
+			"cntrmsrMthd": "(교통·화재) 차량 안에 폭발 위험이 있는 가스라이터, 휴대폰 보조배터리 등을 두지 않기"
+		},
+		{
+			"clsfc": "기타",
+			"value": "심각",
+			"cntrmsrCode": "7404",
+			"cntrmsrMthdShrt": "수면 부족 시 졸음쉼터 이용",
+			"cntrmsrMthd": "(교통) 수면 부족, 집중력 저하 등으로 교통사고 발생 가능성이 있으니 졸음쉼터 이용"
+		},
+		{
+			"clsfc": "기타",
+			"value": "심각",
+			"cntrmsrCode": "7405",
+			"cntrmsrMthdShrt": "살수차 운행으로 도로 표면 온도 낮추기",
+			"cntrmsrMthd": "(교통) 살수차 운행으로 도로 표면 온도 낮추기 권장"
+		},
+		{
+			"clsfc": "기타",
+			"value": "심각",
+			"cntrmsrCode": "7406",
+			"cntrmsrMthdShrt": "폭염으로 인한 열차 지연 고려",
+			"cntrmsrMthd": "(교통) 철도 온도가 높아져 이동 시간이 길어질 수 있으니 열차 이용에 참고"
+		}
+	]
+}
