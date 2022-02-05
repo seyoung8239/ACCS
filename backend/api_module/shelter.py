@@ -1,39 +1,37 @@
 import json
-import pprint
+import os
 from urllib.parse import urlencode, unquote, quote_plus
 import requests
-from lxml import html
 from bs4 import BeautifulSoup
 from collections import OrderedDict
 from .areaCode import make_code, make_address
 
-serviceKey = 'TzsP1PZKniYL6CSvJqbf4KpLPRHSq0uNYR5OdG/J4gy8pt7WTlLm2Xx7Lfv90CZzWz8sDIHLJOvCF6K49GmZ/Q=='
+serviceKey = 'eevsrrwRji5TqX4eCcvWHfSfq1ObEwH0L0/nYNIoWoZIizEPi4Qf7N2vQ8D1CC6LLib6l5SkZJP/HnSeeqbzqw=='
 # serviceKey = 'WC9CCzNYH/PEHu8JOYDKJfZ821AjbbnHk4mnWoSp8h1IUB/OgG+RKTiLo90IwPglMXN7WwhlmCugFCyh4F9YeA=='
 serviceKeyDecoded = unquote(serviceKey, 'UTF-8')
+url = 'http://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterList2'
+# url_Area = "http://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterCrntStList2"
+FILE_PATH = "./api_json/shelter.json"
 
 
-def check_place():
+def find_short(longitude, latitude):
     size = 3  # 가장가까운 쉼터 몇개 알려줄건지
     stack = [] * size
     index = 0
-    longitude = 128.53843740548325
-    latitude = 35.818969493056365
     # 37.58368071740475, 126.96733695359828 / 서울 종로구 35.818969493056365, 128.53843740548325 / 대구 달서구 상인동
     # 35.804066, 128.500381
     areaNumber = make_code(longitude, latitude)
     areaAdd = make_address(longitude, latitude)
-    print(areaAdd)
-    print(areaNumber)
+    # print(areaAdd)
+    # print(areaNumber)
     # for i in range(1,100): # 리 단위 구역은 반복문 돌려서 다 찾아야 될듯
     #     if(i < 10):
     #       areaNumber[0] = areaNumber[0,-2] + '0' + str(i)
     #     else:
     #      areaNumber[0] = areaNumber[0,-2] + str(i)
-    url = 'http://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterList2'
-    url_Area = "http://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterCrntStList2"
     params = {'serviceKey': serviceKey, 'type': 'xml', "areaCd": areaNumber[0]}
     response = requests.get(url, params=params)
-    content = response.text
+    content = response.content
     # pp = pprint.PrettyPrinter(indent = 4)
     # print(pp.pprint(content))
 
@@ -66,35 +64,34 @@ def check_place():
     # }
     soup = BeautifulSoup(content, "lxml-xml")
     rows = soup.find_all("row")
-    shelter = ""
     best_shelter = ""
     for row in rows:
         file_data = OrderedDict()
-        file_data["restSeqNo"] = row.find('restSeqNo').get_text()
-        file_data["year"] = row.find('year').get_text()
+        # file_data["restSeqNo"] = row.find('restSeqNo').get_text()
+        # file_data["year"] = row.find('year').get_text()
         file_data["areaCd"] = row.find('areaCd').get_text()
-        file_data["equptype"] = row.find('equptype').get_text()
+        # file_data["equptype"] = row.find('equptype').get_text()
         file_data["restname"] = row.find('restname').get_text()
         file_data["restaddr"] = row.find('restaddr').get_text()
-        file_data["creDttm"] = row.find('creDttm').get_text()
-        file_data["updtDttm"] = row.find('updtDttm').get_text()
+        # file_data["creDttm"] = row.find('creDttm').get_text()
+        # file_data["updtDttm"] = row.find('updtDttm').get_text()
         file_data["useYn"] = row.find('useYn').get_text()
-        file_data["areaNm"] = row.find('areaNm').get_text()
-        file_data["operBeginDe"] = row.find('operBeginDe').get_text()
-        file_data["operEndDe"] = row.find('operEndDe').get_text()
-        file_data["ar"] = row.find('ar').get_text()
-        file_data["colrHoldElefn"] = row.find('colrHoldElefn').get_text()
-        file_data["usePsblNmpr"] = row.find('usePsblNmpr').get_text()
-        file_data["colrHoldArcndtn"] = row.find('colrHoldArcndtn').get_text()
-        file_data["chckMatterNightOpnAt"] = row.find('chckMatterNightOpnAt').get_text()
-        file_data["chckMatterWkendHdayOpnAt"] = row.find('chckMatterWkendHdayOpnAt').get_text()
-        file_data["chckMatterStayngPsblAt"] = row.find('chckMatterStayngPsblAt').get_text()
-        file_data["rm"] = row.find('rm').get_text()
-        file_data["dtlAdres"] = row.find('dtlAdres').get_text()
-        file_data["mngdpt_cd"] = row.find('mngdpt_cd').get_text()
-        file_data["mngdptCd"] = row.find('mngdptCd').get_text()
-        file_data["xcord"] = row.find("xcord").get_text()
-        file_data["ycord"] = row.find("ycord").get_text()
+        # file_data["areaNm"] = row.find('areaNm').get_text()
+        # file_data["operBeginDe"] = row.find('operBeginDe').get_text()
+        # file_data["operEndDe"] = row.find('operEndDe').get_text()
+        # file_data["ar"] = row.find('ar').get_text()
+        # file_data["colrHoldElefn"] = row.find('colrHoldElefn').get_text()
+        # file_data["usePsblNmpr"] = row.find('usePsblNmpr').get_text()
+        # file_data["colrHoldArcndtn"] = row.find('colrHoldArcndtn').get_text()
+        # file_data["chckMatterNightOpnAt"] = row.find('chckMatterNightOpnAt').get_text()
+        # file_data["chckMatterWkendHdayOpnAt"] = row.find('chckMatterWkendHdayOpnAt').get_text()
+        # file_data["chckMatterStayngPsblAt"] = row.find('chckMatterStayngPsblAt').get_text()
+        # file_data["rm"] = row.find('rm').get_text()
+        # file_data["dtlAdres"] = row.find('dtlAdres').get_text()
+        # file_data["mngdpt_cd"] = row.find('mngdpt_cd').get_text()
+        # file_data["mngdptCd"] = row.find('mngdptCd').get_text()
+        # file_data["xcord"] = row.find("xcord").get_text()
+        # file_data["ycord"] = row.find("ycord").get_text()
         file_data["la"] = row.find('la').get_text()
         file_data["lo"] = row.find('lo').get_text()
         x = file_data["la"]
@@ -116,12 +113,40 @@ def check_place():
                 stack.sort()
                 if (tmp < stack[2][0] and flag == 0):
                     stack[2] = [tmp, file_data["restname"], json.dumps(file_data, ensure_ascii=False, indent="\t")]
-        if (file_data["useYn"] == "Y"):
-            shelter += json.dumps(file_data, ensure_ascii=False, indent="\t")
-            shelter += "\n"
     stack.sort()
     for i in range(0, size):
         best_shelter += stack[i][2]
-        shelter += "\n"
-    print(best_shelter)
+        best_shelter += "\n"
     return best_shelter
+
+
+def get_shelter_data():
+    if not os.path.isfile(FILE_PATH):  # json 파일이 존재 X
+        check_place()
+
+    with open(FILE_PATH, "r") as json_file:
+        data = json.load(json_file)
+
+    return data
+
+
+def check_place():
+    shelter = []
+    for i in range(1, 51):
+        params = {'serviceKey': serviceKey, 'type': 'xml', 'pageNo': str(i), 'numOfRows': '1000'}
+        response = requests.get(url, params=params)
+        content = response.content
+        soup = BeautifulSoup(content, "lxml-xml")
+        rows = soup.find_all("row")
+        for row in rows:
+            file_data = OrderedDict()
+            # file_data["restname"] = row.find('restname').get_text()
+            # file_data["restaddr"] = row.find('restaddr').get_text()
+            # file_data["useYn"] = row.find('useYn').get_text()
+            file_data["la"] = row.find('la').get_text()
+            file_data["lo"] = row.find('lo').get_text()
+            if float(file_data["la"]) < 90:
+                shelter.append(file_data)
+
+    with open(FILE_PATH, 'w') as outfile:
+        json.dump(shelter, outfile, ensure_ascii=False, indent='\t')
